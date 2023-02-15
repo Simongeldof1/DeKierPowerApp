@@ -1,4 +1,4 @@
-OpmerkingenDosier As screen:
+DossierOpmerkingen As screen:
     Fill: =RGBA(234, 234, 234, 1)
     LoadingSpinnerColor: =RGBA(164, 38, 44, 1)
 
@@ -32,6 +32,48 @@ OpmerkingenDosier As screen:
         Y: =684
         ZIndex: =3
 
+    Rectangle1_5 As rectangle:
+        BorderColor: =RGBA(89, 0, 0, 1)
+        Fill: =RGBA(164, 38, 44, 1)
+        Height: =146
+        Width: =1366
+        ZIndex: =4
+
+    Hoofdmenu_5 As label:
+        BorderColor: =RGBA(89, 0, 0, 1)
+        Color: =RGBA(251, 251, 251, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        FontWeight: =FontWeight.Bold
+        Height: =64
+        Size: =30
+        Text: ="Opmerkingen dossier"
+        Width: =455
+        X: =469
+        Y: =40
+        ZIndex: =5
+
+    DatumVandaag_5 As label:
+        BorderColor: =RGBA(89, 0, 0, 1)
+        Color: =RGBA(251, 251, 251, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        Height: =43
+        Size: =20
+        Text: =Text(Today(),"dd/mm/yyyy")
+        Width: =167
+        X: =1166
+        Y: =51
+        ZIndex: =6
+
+    Image4_5 As image:
+        BorderColor: =RGBA(89, 0, 0, 1)
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        Height: =117
+        Image: ='MicrosoftTeams-image (1)'
+        Width: =194
+        Y: =18
+        ZIndex: =7
+
     Label1_2 As label:
         BorderColor: =RGBA(89, 0, 0, 1)
         BorderThickness: =2
@@ -43,103 +85,32 @@ OpmerkingenDosier As screen:
         Y: =158
         ZIndex: =8
 
-    Form3 As form:
+    Button3_1 As button:
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        Fill: =RGBA(164, 38, 44, 1)
+        FontWeight: =FontWeight.Semibold
+        Height: =58
+        HoverColor: =RGBA(255, 255, 255, 1)
+        HoverFill: =ColorFade(RGBA(164, 38, 44, 1), -20%)
+        OnSelect: =SubmitForm(OpmerkingForm); ResetForm(OpmerkingForm)
+        Size: =15
+        Text: ="Voeg opmerking toe"
+        Width: =288
+        X: =536
+        Y: =644
+        ZIndex: =10
+
+    OpmerkingForm As form:
         BorderColor: =RGBA(89, 0, 0, 1)
         DataSource: =Opmerkingen
-        Height: =452
+        Height: =384
         NumberOfColumns: =2
-        Width: =1212
-        X: =70
-        Y: =218
-        ZIndex: =9
-
-        Opmerking_DataCard2 As typedDataCard.textualMultiLineEditCard:
-            BorderColor: =RGBA(89, 0, 0, 1)
-            BorderStyle: =BorderStyle.Solid
-            DataField: ="Opmerking"
-            Default: =ThisItem.Opmerking
-            DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@Opmerkingen],DataSourceInfo.DisplayName,"Opmerking")
-            Fill: =RGBA(0, 0, 0, 0)
-            Height: =344
-            Required: =false
-            Update: =DataCardValue81.Text
-            Width: =1212
-            X: =0
-            Y: =1
-            ZIndex: =1
-
-            DataCardKey81 As label:
-                AutoHeight: =true
-                Color: =RGBA(89, 0, 0, 1)
-                DisabledColor: =RGBA(166, 166, 166, 1)
-                Height: =34
-                Size: =13
-                Text: =Parent.DisplayName
-                Width: =Parent.Width - 60
-                Wrap: =false
-                X: =30
-                Y: =15
-                ZIndex: =1
-
-            DataCardValue81 As text:
-                BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
-                BorderThickness: =2
-                Color: =RGBA(0, 0, 0, 1)
-                Default: =Parent.Default
-                DelayOutput: =true
-                DisabledBorderColor: =RGBA(166, 166, 166, 1)
-                DisabledColor: =RGBA(166, 166, 166, 1)
-                DisabledFill: =RGBA(244, 244, 244, 1)
-                DisplayMode: =Parent.DisplayMode
-                FocusedBorderThickness: =4
-                Height: =274
-                HoverBorderColor: =RGBA(89, 0, 0, 1)
-                HoverColor: =RGBA(0, 0, 0, 1)
-                HoverFill: =RGBA(222, 179, 184, 1)
-                Mode: =TextMode.MultiLine
-                PaddingLeft: =5
-                RadiusBottomLeft: =0
-                RadiusBottomRight: =0
-                RadiusTopLeft: =0
-                RadiusTopRight: =0
-                Size: =13
-                Tooltip: =Parent.DisplayName
-                Width: =1152
-                X: =30
-                Y: =DataCardKey81.Y + DataCardKey81.Height + 5
-                ZIndex: =2
-
-            ErrorMessage78 As label:
-                AutoHeight: =true
-                Color: =RGBA(168, 0, 0, 1)
-                DisabledColor: =RGBA(166, 166, 166, 1)
-                FontWeight: =FontWeight.Semibold
-                Height: =10
-                Live: =Live.Assertive
-                PaddingBottom: =0
-                PaddingLeft: =0
-                PaddingRight: =0
-                PaddingTop: =0
-                Text: =Parent.Error
-                Visible: =Parent.DisplayMode=DisplayMode.Edit
-                Width: =Parent.Width - 60
-                X: =30
-                Y: =DataCardValue81.Y + DataCardValue81.Height
-                ZIndex: =3
-
-            StarVisible78 As label:
-                Align: =Align.Center
-                Color: =RGBA(89, 0, 0, 1)
-                DisabledColor: =RGBA(166, 166, 166, 1)
-                Height: =DataCardKey81.Height
-                Size: =13
-                Text: ="*"
-                Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
-                Width: =30
-                Wrap: =false
-                Y: =DataCardKey81.Y
-                ZIndex: =4
+        Width: =1248
+        X: =60
+        Y: =216
+        ZIndex: =11
 
         Datum_DataCard1 As typedDataCard.dateEditCard:
             BorderColor: =RGBA(89, 0, 0, 1)
@@ -151,13 +122,13 @@ OpmerkingenDosier As screen:
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
             Required: =true
-            Update: =DataCardValue77.SelectedDate
-            Width: =606
+            Update: =DataCardValue73.SelectedDate
+            Width: =624
             X: =0
             Y: =0
-            ZIndex: =10
+            ZIndex: =12
 
-            DataCardKey77 As label:
+            DataCardKey73 As label:
                 AutoHeight: =true
                 Color: =RGBA(89, 0, 0, 1)
                 DisabledColor: =RGBA(166, 166, 166, 1)
@@ -170,7 +141,7 @@ OpmerkingenDosier As screen:
                 Y: =10
                 ZIndex: =1
 
-            DataCardValue77 As datepicker:
+            DataCardValue73 As datepicker:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                 CalendarHeaderFill: =RGBA(164, 38, 44, 1)
                 Color: =RGBA(0, 0, 0, 1)
@@ -190,10 +161,10 @@ OpmerkingenDosier As screen:
                 Tooltip: =Parent.DisplayName
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardKey77.Y + DataCardKey77.Height + 5
+                Y: =DataCardKey73.Y + DataCardKey73.Height + 5
                 ZIndex: =2
 
-            ErrorMessage74 As label:
+            ErrorMessage70 As label:
                 AutoHeight: =true
                 Color: =RGBA(168, 0, 0, 1)
                 DisabledColor: =RGBA(166, 166, 166, 1)
@@ -208,23 +179,23 @@ OpmerkingenDosier As screen:
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardValue77.Y + DataCardValue77.Height
+                Y: =DataCardValue73.Y + DataCardValue73.Height
                 ZIndex: =3
 
-            StarVisible74 As label:
+            StarVisible70 As label:
                 Align: =Align.Center
                 Color: =RGBA(89, 0, 0, 1)
                 DisabledColor: =RGBA(166, 166, 166, 1)
-                Height: =DataCardKey77.Height
+                Height: =DataCardKey73.Height
                 Size: =13
                 Text: ="*"
                 Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
                 Width: =30
                 Wrap: =false
-                Y: =DataCardKey77.Y
+                Y: =DataCardKey73.Y
                 ZIndex: =4
 
-        Gast_DataCard4 As typedDataCard.comboBoxEditCard:
+        Gast_DataCard3 As typedDataCard.comboBoxEditCard:
             BorderColor: =RGBA(89, 0, 0, 1)
             BorderStyle: =BorderStyle.Solid
             DataField: ="Gast"
@@ -234,13 +205,13 @@ OpmerkingenDosier As screen:
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
             Required: =false
-            Update: =DataCardValue78.Selected
-            Width: =606
+            Update: =DataCardValue74.Selected
+            Width: =624
             X: =1
             Y: =0
-            ZIndex: =10
+            ZIndex: =12
 
-            DataCardKey78 As label:
+            DataCardKey74 As label:
                 AutoHeight: =true
                 Color: =RGBA(89, 0, 0, 1)
                 DisabledColor: =RGBA(166, 166, 166, 1)
@@ -253,7 +224,7 @@ OpmerkingenDosier As screen:
                 Y: =10
                 ZIndex: =1
 
-            DataCardValue78 As combobox:
+            DataCardValue74 As combobox:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                 ChevronBackground: =RGBA(164, 38, 44, 1)
                 ChevronDisabledBackground: =RGBA(166, 166, 166, 1)
@@ -268,23 +239,22 @@ OpmerkingenDosier As screen:
                 DisplayMode: =Parent.DisplayMode
                 HoverColor: =RGBA(0, 0, 0, 1)
                 HoverFill: =RGBA(222, 179, 184, 1)
-                IsSearchable: =false
                 Items: =Choices([@Opmerkingen].Gast)
                 PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
                 PressedColor: =RGBA(255, 255, 255, 1)
                 PressedFill: =RGBA(89, 0, 0, 1)
                 SearchFields: =["Value"]
-                SearchItems: =[]
+                SearchItems: =Choices(Opmerkingen.Gast,DataCardValue74.SearchText)
                 SelectionFill: =RGBA(164, 38, 44, 1)
                 SelectMultiple: =false
                 Size: =13
                 Tooltip: =Parent.DisplayName
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardKey78.Y + DataCardKey78.Height + 5
+                Y: =DataCardKey74.Y + DataCardKey74.Height + 5
                 ZIndex: =2
 
-            ErrorMessage75 As label:
+            ErrorMessage71 As label:
                 AutoHeight: =true
                 Color: =RGBA(168, 0, 0, 1)
                 DisabledColor: =RGBA(166, 166, 166, 1)
@@ -299,19 +269,108 @@ OpmerkingenDosier As screen:
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardValue78.Y + DataCardValue78.Height
+                Y: =DataCardValue74.Y + DataCardValue74.Height
                 ZIndex: =3
 
-            StarVisible75 As label:
+            StarVisible71 As label:
                 Align: =Align.Center
                 Color: =RGBA(89, 0, 0, 1)
                 DisabledColor: =RGBA(166, 166, 166, 1)
-                Height: =DataCardKey78.Height
+                Height: =DataCardKey74.Height
                 Size: =13
                 Text: ="*"
                 Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
                 Width: =30
                 Wrap: =false
-                Y: =DataCardKey78.Y
+                Y: =DataCardKey74.Y
+                ZIndex: =4
+
+        Opmerking_DataCard1 As typedDataCard.textualEditCard:
+            BorderColor: =RGBA(89, 0, 0, 1)
+            BorderStyle: =BorderStyle.Solid
+            DataField: ="Opmerking"
+            Default: =ThisItem.Opmerking
+            DisplayMode: =Parent.DisplayMode
+            DisplayName: =DataSourceInfo([@Opmerkingen],DataSourceInfo.DisplayName,"Opmerking")
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =282
+            MaxLength: =DataSourceInfo([@Opmerkingen], DataSourceInfo.MaxLength, "Opmerking")
+            Required: =false
+            Update: =DataCardValue75.Text
+            Width: =1248
+            X: =0
+            Y: =1
+            ZIndex: =12
+
+            DataCardKey75 As label:
+                AutoHeight: =true
+                Color: =RGBA(89, 0, 0, 1)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                Height: =34
+                Size: =13
+                Text: =Parent.DisplayName
+                Width: =Parent.Width - 60
+                Wrap: =false
+                X: =30
+                Y: =10
+                ZIndex: =1
+
+            DataCardValue75 As text:
+                BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+                BorderThickness: =2
+                Color: =RGBA(0, 0, 0, 1)
+                Default: =Parent.Default
+                DelayOutput: =true
+                DisabledBorderColor: =RGBA(166, 166, 166, 1)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                DisabledFill: =RGBA(244, 244, 244, 1)
+                DisplayMode: =Parent.DisplayMode
+                FocusedBorderThickness: =4
+                Height: =220
+                HoverBorderColor: =RGBA(89, 0, 0, 1)
+                HoverColor: =RGBA(0, 0, 0, 1)
+                HoverFill: =RGBA(222, 179, 184, 1)
+                MaxLength: =Parent.MaxLength
+                PaddingLeft: =5
+                RadiusBottomLeft: =0
+                RadiusBottomRight: =0
+                RadiusTopLeft: =0
+                RadiusTopRight: =0
+                Size: =13
+                Tooltip: =Parent.DisplayName
+                Width: =Parent.Width - 60
+                X: =30
+                Y: =DataCardKey75.Y + DataCardKey75.Height + 5
+                ZIndex: =2
+
+            ErrorMessage72 As label:
+                AutoHeight: =true
+                Color: =RGBA(168, 0, 0, 1)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                FontWeight: =FontWeight.Semibold
+                Height: =10
+                Live: =Live.Assertive
+                PaddingBottom: =0
+                PaddingLeft: =0
+                PaddingRight: =0
+                PaddingTop: =0
+                Text: =Parent.Error
+                Visible: =Parent.DisplayMode=DisplayMode.Edit
+                Width: =Parent.Width - 60
+                X: =30
+                Y: =DataCardValue75.Y + DataCardValue75.Height
+                ZIndex: =3
+
+            StarVisible72 As label:
+                Align: =Align.Center
+                Color: =RGBA(89, 0, 0, 1)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                Height: =DataCardKey75.Height
+                Size: =13
+                Text: ="*"
+                Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
+                Width: =30
+                Wrap: =false
+                Y: =DataCardKey75.Y
                 ZIndex: =4
 
