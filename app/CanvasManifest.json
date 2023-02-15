@@ -110,23 +110,21 @@
     "PublishDataLocally": false,
     "PublishResourcesLocally": false,
     "PublishTarget": "player",
-    "UserLocale": "nl-NL"
+    "UserLocale": "en-US"
   },
   "ScreenOrder": [
-    "Startscherm",
-    "PersoonGegevens",
-    "Financien",
-    "OverzichtWinkels",
-    "ToevoegenWinkel",
-    "WijzigenWinkel",
-    "OverzichtBezoekverslagen",
-    "ToevoegenBezoekverslag",
-    "Wijzigen bezoekverslag",
-    "Contacten",
-    "Kierbezoeken",
-    "OpmerkingenDosier",
     "ContactenPagina",
     "Documenten",
-    "DossierOpmerkingen"
+    "DossierOpmerkingen",
+    "Financien",
+    "Kierbezoeken",
+    "OverzichtBezoekverslagen",
+    "OverzichtWinkels",
+    "PersoonGegevens",
+    "Startscherm",
+    "ToevoegenBezoekverslag",
+    "ToevoegenWinkel",
+    "Wijzigen bezoekverslag",
+    "WijzigenWinkel"
   ]
 }
