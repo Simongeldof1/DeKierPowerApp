@@ -30,22 +30,6 @@ ToevoegenBezoekverslag As screen:
             Y: =0
             ZIndex: =2
 
-        Permanentienaam_DataCard1 As typedDataCard.comboBoxEditCard:
-            BorderColor: =RGBA(89, 0, 0, 1)
-            BorderStyle: =BorderStyle.Solid
-            DataField: ="Permanentienaam"
-            Default: =ThisItem.Permanentienaam
-            DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@Bezoeksverlagen_1],DataSourceInfo.DisplayName,"Permanentienaam")
-            Fill: =RGBA(0, 0, 0, 0)
-            Height: =50
-            Required: =false
-            Update: =DataCardValue48.Selected
-            Width: =446
-            X: =0
-            Y: =1
-            ZIndex: =2
-
         "'Voor stuurgroep_DataCard1' As typedDataCard.comboBoxEditCard":
             BorderColor: =RGBA(89, 0, 0, 1)
             BorderStyle: =BorderStyle.Solid
@@ -60,6 +44,22 @@ ToevoegenBezoekverslag As screen:
             Width: =446
             X: =2
             Y: =0
+            ZIndex: =2
+
+        Permanentienaam_DataCard1 As typedDataCard.comboBoxEditCard:
+            BorderColor: =RGBA(89, 0, 0, 1)
+            BorderStyle: =BorderStyle.Solid
+            DataField: ="Permanentienaam"
+            Default: =ThisItem.Permanentienaam
+            DisplayMode: =Parent.DisplayMode
+            DisplayName: =DataSourceInfo([@Bezoeksverlagen_1],DataSourceInfo.DisplayName,"Permanentienaam")
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =50
+            Required: =false
+            Update: =DataCardValue48.Selected
+            Width: =446
+            X: =0
+            Y: =1
             ZIndex: =2
 
         "'Manier van aanmelden_DataCard1' As typedDataCard.comboBoxEditCard":
