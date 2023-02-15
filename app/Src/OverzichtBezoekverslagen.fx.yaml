@@ -1,0 +1,168 @@
+OverzichtBezoekverslagen As screen:
+    Fill: =RGBA(234, 234, 234, 1)
+    LoadingSpinnerColor: =RGBA(164, 38, 44, 1)
+
+    Rectangle1_5 As rectangle:
+        BorderColor: =RGBA(89, 0, 0, 1)
+        Fill: =RGBA(164, 38, 44, 1)
+        Height: =146
+        Width: =1366
+        ZIndex: =1
+
+    Hoofdmenu_5 As label:
+        BorderColor: =RGBA(89, 0, 0, 1)
+        Color: =RGBA(251, 251, 251, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        FontWeight: =FontWeight.Bold
+        Height: =47
+        Size: =30
+        Text: ="OVERZICHT BEZOEKVERSLAGEN"
+        Width: =684
+        X: =341
+        Y: =47
+        ZIndex: =2
+
+    DatumVandaag_5 As label:
+        BorderColor: =RGBA(89, 0, 0, 1)
+        Color: =RGBA(251, 251, 251, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        Height: =43
+        Size: =20
+        Text: =Text(Today(),"dd/mm/yyyy")
+        Width: =167
+        X: =1166
+        Y: =51
+        ZIndex: =3
+
+    Image4_5 As image:
+        BorderColor: =RGBA(89, 0, 0, 1)
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        Height: =117
+        Image: ='MicrosoftTeams-image (1)'
+        Width: =194
+        Y: =18
+        ZIndex: =4
+
+    "Gallery2 As gallery.'BrowseLayout_Vertical_TwoTextOneImageVariant_ver4.0'":
+        BorderColor: =RGBA(89, 0, 0, 1)
+        Height: =455
+        Items: =Bezoeksverlagen
+        Layout: =Layout.Vertical
+        TemplatePadding: =0
+        TemplateSize: =Min(160, Self.Height - 60)
+        Width: =1300
+        X: =33
+        Y: =165
+        ZIndex: =5
+
+        Image2 As image:
+            BorderColor: =RGBA(89, 0, 0, 1)
+            DisabledBorderColor: =RGBA(166, 166, 166, 1)
+            DisabledFill: =RGBA(244, 244, 244, 1)
+            Height: =128
+            OnSelect: =Select(Parent)
+            Width: =128
+            X: =16
+            Y: =(Parent.TemplateHeight / 2) - (Self.Height / 2)
+            ZIndex: =1
+
+        Title3 As label:
+            Color: =RGBA(0, 0, 0, 1)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            FontWeight: =FontWeight.Semibold
+            Height: =Self.Size * 1.8
+            OnSelect: =Select(Parent)
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Size: =20
+            Text: =ThisItem.Title
+            VerticalAlign: =VerticalAlign.Top
+            Width: =Parent.TemplateWidth - Image2.Width - 104
+            X: =Image2.X + Image2.Width + 24
+            Y: =44
+            ZIndex: =2
+
+        Subtitle2 As label:
+            Color: =RGBA(0, 0, 0, 1)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            Height: =Self.Size * 1.8
+            OnSelect: =Select(Parent)
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Size: =18
+            Text: =ThisItem.'Naam bezoeker'.Value
+            VerticalAlign: =VerticalAlign.Top
+            Width: =Title3.Width
+            X: =Title3.X
+            Y: =Title3.Y + Title3.Height + 4
+            ZIndex: =3
+
+        NextArrow2 As icon.ChevronRight:
+            AccessibleLabel: =Self.Tooltip
+            BorderColor: =RGBA(89, 0, 0, 1)
+            Color: =RGBA(89, 0, 0, 1)
+            DisabledBorderColor: =RGBA(166, 166, 166, 1)
+            DisabledColor: =RGBA(244, 244, 244, 1)
+            Height: =60
+            Icon: =Icon.ChevronRight
+            OnSelect: =Set(varMode,"Edit"); Select(Parent) ;Navigate('Wijzigen bezoekverslag',Cover); Set(glbRecord, ThisItem)
+            PaddingBottom: =10
+            PaddingLeft: =10
+            PaddingRight: =10
+            PaddingTop: =10
+            TabIndex: =0
+            Tooltip: ="View item details"
+            Width: =60
+            X: =Parent.TemplateWidth - Self.Width - 5
+            Y: =(Parent.TemplateHeight / 2) - (Self.Height / 2)
+            ZIndex: =4
+
+        Separator2 As rectangle:
+            BorderColor: =RGBA(89, 0, 0, 1)
+            Fill: =RGBA(89, 0, 0, 1)
+            Height: =1
+            OnSelect: =Select(Parent)
+            Width: =Parent.TemplateWidth
+            Y: =Parent.TemplateHeight - 1
+            ZIndex: =5
+
+    Button6_1 As button:
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        Fill: =RGBA(164, 38, 44, 1)
+        FontWeight: =FontWeight.Semibold
+        Height: =77
+        HoverColor: =RGBA(255, 255, 255, 1)
+        HoverFill: =ColorFade(RGBA(164, 38, 44, 1), -20%)
+        OnSelect: =Navigate(Startscherm)
+        Size: =15
+        Text: ="Terug naar startscherm"
+        Width: =277
+        X: =72
+        Y: =624
+        ZIndex: =6
+
+    WinkelToevoegen_1 As button:
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        Fill: =RGBA(164, 38, 44, 1)
+        FontWeight: =FontWeight.Semibold
+        Height: =77
+        HoverColor: =RGBA(255, 255, 255, 1)
+        HoverFill: =ColorFade(RGBA(164, 38, 44, 1), -20%)
+        OnSelect: |
+            =NewForm(FormBezoekverslag); Navigate(ToevoegenBezoekverslag);
+        Size: =15
+        Text: ="Nieuw bezoekverslag"
+        Width: =290
+        X: =1008
+        Y: =624
+        ZIndex: =7
+
