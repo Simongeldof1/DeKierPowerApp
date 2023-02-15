@@ -119,9 +119,9 @@
     "OverzichtWinkels",
     "ToevoegenWinkel",
     "WijzigenWinkel",
-    "Bezoekverslag",
+    "ToevoegenBezoekverslag",
     "Contacten",
-    "OpmerkingenDosier",
-    "Kierbezoeken"
+    "Kierbezoeken",
+    "OpmerkingenDosier"
   ]
 }

@@ -32,48 +32,6 @@ OpmerkingenDosier As screen:
         Y: =684
         ZIndex: =3
 
-    Rectangle1_4 As rectangle:
-        BorderColor: =RGBA(89, 0, 0, 1)
-        Fill: =RGBA(164, 38, 44, 1)
-        Height: =146
-        Width: =1366
-        ZIndex: =4
-
-    Hoofdmenu_4 As label:
-        BorderColor: =RGBA(89, 0, 0, 1)
-        Color: =RGBA(251, 251, 251, 1)
-        DisabledColor: =RGBA(166, 166, 166, 1)
-        FontWeight: =FontWeight.Bold
-        Height: =53
-        Size: =30
-        Text: ="Opmerkingen Dossier"
-        Width: =463
-        X: =479
-        Y: =41
-        ZIndex: =5
-
-    DatumVandaag_4 As label:
-        BorderColor: =RGBA(89, 0, 0, 1)
-        Color: =RGBA(251, 251, 251, 1)
-        DisabledColor: =RGBA(166, 166, 166, 1)
-        Height: =43
-        Size: =20
-        Text: =Text(Today(),"dd/mm/yyyy")
-        Width: =167
-        X: =1166
-        Y: =51
-        ZIndex: =6
-
-    Image4_4 As image:
-        BorderColor: =RGBA(89, 0, 0, 1)
-        DisabledBorderColor: =RGBA(166, 166, 166, 1)
-        DisabledFill: =RGBA(244, 244, 244, 1)
-        Height: =117
-        Image: ='MicrosoftTeams-image (1)'
-        Width: =194
-        Y: =18
-        ZIndex: =7
-
     Label1_2 As label:
         BorderColor: =RGBA(89, 0, 0, 1)
         BorderThickness: =2
