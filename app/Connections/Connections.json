@@ -1,0 +1,38 @@
+{
+  "21ef9927-9708-4ba0-b8aa-9e50e12eda06": {
+    "connectionParameters": {
+      "sku": "Enterprise"
+    },
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "SharePoint",
+      "iconUri": "https://connectoricons-prod.azureedge.net/u/juanq/gateway/greyhound/3000.150.11/1.0.1613.3116/sharepointonline/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_sharepointonline",
+      "parameterHints": {},
+      "parameterHintsV2": {}
+    },
+    "datasets": {
+      "https://dekier.sharepoint.com/sites/DeKier": {
+        "dataSources": {
+          "Financiën": {
+            "tableName": "d9b9b99f-859f-4add-aab4-f76455807e77"
+          },
+          "Gasten": {
+            "tableName": "af080b01-d1de-43dc-be28-ca21de22e003"
+          },
+          "Winkels_1": {
+            "tableName": "c6e608af-7b8b-4455-9ea5-60d97b0e1895"
+          }
+        }
+      }
+    },
+    "dataSources": [
+      "Gasten",
+      "Financiën",
+      "Winkels_1"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "21ef9927-9708-4ba0-b8aa-9e50e12eda06"
+  }
+}

@@ -1,0 +1,165 @@
+Startscherm As screen:
+    Fill: =RGBA(234, 234, 234, 1)
+    LoadingSpinnerColor: =RGBA(164, 38, 44, 1)
+
+    NieuwIntake As button:
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        Fill: =RGBA(164, 38, 44, 1)
+        FontWeight: =FontWeight.Semibold
+        Height: =112
+        HoverColor: =RGBA(255, 255, 255, 1)
+        HoverFill: =ColorFade(RGBA(164, 38, 44, 1), -20%)
+        OnSelect: =Navigate(PersoonGegevens,Fade)
+        Size: =25
+        Text: ="Nieuwe intake invoeren "
+        Width: =419
+        X: =502
+        Y: =216
+        ZIndex: =1
+
+    NieuwBezoeksverlag As button:
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        Fill: =RGBA(164, 38, 44, 1)
+        FontWeight: =FontWeight.Semibold
+        Height: =87
+        HoverColor: =RGBA(255, 255, 255, 1)
+        HoverFill: =ColorFade(RGBA(164, 38, 44, 1), -20%)
+        OnSelect: =Navigate(Bezoeksverlag)
+        Size: =15
+        Text: |-
+            ="Niew bezoeksverlag invoeren
+            "
+        Width: =245
+        X: =257
+        Y: =516
+        ZIndex: =2
+
+    LijstStuurgroep As button:
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        Fill: =RGBA(164, 38, 44, 1)
+        FontWeight: =FontWeight.Semibold
+        Height: =87
+        HoverColor: =RGBA(255, 255, 255, 1)
+        HoverFill: =ColorFade(RGBA(164, 38, 44, 1), -20%)
+        Size: =15
+        Text: ="Lijst voor stuurgroep"
+        Width: =245
+        X: =921
+        Y: =516
+        ZIndex: =3
+
+    Button4 As button:
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        Fill: =RGBA(164, 38, 44, 1)
+        FontWeight: =FontWeight.Semibold
+        Height: =87
+        HoverColor: =RGBA(255, 255, 255, 1)
+        HoverFill: =ColorFade(RGBA(164, 38, 44, 1), -20%)
+        OnSelect: =Navigate(OverzichtWinkels)
+        Size: =15
+        Text: |-
+            ="Winkels
+            "
+        Width: =245
+        X: =921
+        Y: =634
+        ZIndex: =4
+
+    Rectangle1 As rectangle:
+        BorderColor: =RGBA(89, 0, 0, 1)
+        Fill: =RGBA(164, 38, 44, 1)
+        Height: =146
+        Width: =1366
+        ZIndex: =5
+
+    Button9 As button:
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        Fill: =RGBA(164, 38, 44, 1)
+        FontWeight: =FontWeight.Semibold
+        Height: =87
+        HoverColor: =RGBA(255, 255, 255, 1)
+        HoverFill: =ColorFade(RGBA(164, 38, 44, 1), -20%)
+        Size: =15
+        Text: ="Button"
+        Width: =245
+        X: =257
+        Y: =634
+        ZIndex: =6
+
+    Button10 As button:
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        Fill: =RGBA(164, 38, 44, 1)
+        FontWeight: =FontWeight.Semibold
+        Height: =87
+        HoverColor: =RGBA(255, 255, 255, 1)
+        HoverFill: =ColorFade(RGBA(164, 38, 44, 1), -20%)
+        Size: =15
+        Text: ="Winkeldagboek"
+        Width: =245
+        X: =921
+        Y: =392
+        ZIndex: =7
+
+    Button11 As button:
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        Fill: =RGBA(164, 38, 44, 1)
+        FontWeight: =FontWeight.Semibold
+        Height: =87
+        HoverColor: =RGBA(255, 255, 255, 1)
+        HoverFill: =ColorFade(RGBA(164, 38, 44, 1), -20%)
+        Size: =15
+        Text: ="Overzicht gasten"
+        Width: =245
+        X: =257
+        Y: =392
+        ZIndex: =8
+
+    Hoofdmenu As label:
+        BorderColor: =RGBA(89, 0, 0, 1)
+        Color: =RGBA(251, 251, 251, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        FontWeight: =FontWeight.Bold
+        Height: =62
+        Size: =30
+        Text: ="HOOFDMENU"
+        Width: =297
+        X: =563
+        Y: =42
+        ZIndex: =9
+
+    DatumVandaag As label:
+        BorderColor: =RGBA(89, 0, 0, 1)
+        Color: =RGBA(251, 251, 251, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        Height: =43
+        Size: =20
+        Text: =Text(Today(),"dd/mm/yyyy")
+        Width: =167
+        X: =1166
+        Y: =51
+        ZIndex: =10
+
+    Image4 As image:
+        BorderColor: =RGBA(89, 0, 0, 1)
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        Height: =117
+        Image: ='MicrosoftTeams-image (1)'
+        Width: =194
+        Y: =18
+        ZIndex: =11
+
