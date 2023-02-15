@@ -1634,19 +1634,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Contacten.ContactenFormulier.Gast_DataCard2.DataCardValue45.AccessibleLabel"
+                  "fullyQualifiedName": "ContactenPagina.ContactenFormulier.Gast_DataCard2.DataCardValue45.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Contacten.ContactenFormulier.Gast_DataCard2.DataCardValue45.AccessibleLabel",
+                  "fullyQualifiedName": "ContactenPagina.ContactenFormulier.Gast_DataCard2.DataCardValue45.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Contacten",
-                "type": "Contacten.ContactenFormulier.Gast_DataCard2.DataCardValue45"
+                "module": "ContactenPagina",
+                "type": "ContactenPagina.ContactenFormulier.Gast_DataCard2.DataCardValue45"
               }
             }
           ],
@@ -1664,19 +1664,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Contacten.ContactenFormulier.'Soort contact_DataCard1'.DataCardValue46.AccessibleLabel"
+                  "fullyQualifiedName": "ContactenPagina.ContactenFormulier.'Soort contact_DataCard1'.DataCardValue46.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Contacten.ContactenFormulier.'Soort contact_DataCard1'.DataCardValue46.AccessibleLabel",
+                  "fullyQualifiedName": "ContactenPagina.ContactenFormulier.'Soort contact_DataCard1'.DataCardValue46.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Contacten",
-                "type": "Contacten.ContactenFormulier.'Soort contact_DataCard1'.DataCardValue46"
+                "module": "ContactenPagina",
+                "type": "ContactenPagina.ContactenFormulier.'Soort contact_DataCard1'.DataCardValue46"
               }
             }
           ],
@@ -1694,19 +1694,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Contacten.ContactenFormulier.'Voornaam contact_DataCard1'.DataCardValue47.AccessibleLabel"
+                  "fullyQualifiedName": "ContactenPagina.ContactenFormulier.'Voornaam contact_DataCard1'.DataCardValue47.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Contacten.ContactenFormulier.'Voornaam contact_DataCard1'.DataCardValue47.AccessibleLabel",
+                  "fullyQualifiedName": "ContactenPagina.ContactenFormulier.'Voornaam contact_DataCard1'.DataCardValue47.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Contacten",
-                "type": "Contacten.ContactenFormulier.'Voornaam contact_DataCard1'.DataCardValue47"
+                "module": "ContactenPagina",
+                "type": "ContactenPagina.ContactenFormulier.'Voornaam contact_DataCard1'.DataCardValue47"
               }
             }
           ],
@@ -1724,19 +1724,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Contacten.ContactenFormulier.'Familienaam contact_DataCard1'.DataCardValue48.AccessibleLabel"
+                  "fullyQualifiedName": "ContactenPagina.ContactenFormulier.'Familienaam contact_DataCard1'.DataCardValue48.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Contacten.ContactenFormulier.'Familienaam contact_DataCard1'.DataCardValue48.AccessibleLabel",
+                  "fullyQualifiedName": "ContactenPagina.ContactenFormulier.'Familienaam contact_DataCard1'.DataCardValue48.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Contacten",
-                "type": "Contacten.ContactenFormulier.'Familienaam contact_DataCard1'.DataCardValue48"
+                "module": "ContactenPagina",
+                "type": "ContactenPagina.ContactenFormulier.'Familienaam contact_DataCard1'.DataCardValue48"
               }
             }
           ],
@@ -1754,19 +1754,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Contacten.ContactenFormulier.Telefoonnummer_DataCard1.DataCardValue49.AccessibleLabel"
+                  "fullyQualifiedName": "ContactenPagina.ContactenFormulier.Telefoonnummer_DataCard1.DataCardValue49.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Contacten.ContactenFormulier.Telefoonnummer_DataCard1.DataCardValue49.AccessibleLabel",
+                  "fullyQualifiedName": "ContactenPagina.ContactenFormulier.Telefoonnummer_DataCard1.DataCardValue49.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Contacten",
-                "type": "Contacten.ContactenFormulier.Telefoonnummer_DataCard1.DataCardValue49"
+                "module": "ContactenPagina",
+                "type": "ContactenPagina.ContactenFormulier.Telefoonnummer_DataCard1.DataCardValue49"
               }
             }
           ],
@@ -1784,19 +1784,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Contacten.ContactenFormulier.Gemeente_DataCard2.DataCardValue51.AccessibleLabel"
+                  "fullyQualifiedName": "ContactenPagina.ContactenFormulier.Gemeente_DataCard2.DataCardValue51.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Contacten.ContactenFormulier.Gemeente_DataCard2.DataCardValue51.AccessibleLabel",
+                  "fullyQualifiedName": "ContactenPagina.ContactenFormulier.Gemeente_DataCard2.DataCardValue51.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Contacten",
-                "type": "Contacten.ContactenFormulier.Gemeente_DataCard2.DataCardValue51"
+                "module": "ContactenPagina",
+                "type": "ContactenPagina.ContactenFormulier.Gemeente_DataCard2.DataCardValue51"
               }
             }
           ],
@@ -1814,19 +1814,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Contacten.ContactenFormulier.Postcode_DataCard2.DataCardValue64.AccessibleLabel"
+                  "fullyQualifiedName": "ContactenPagina.ContactenFormulier.Postcode_DataCard2.DataCardValue64.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Contacten.ContactenFormulier.Postcode_DataCard2.DataCardValue64.AccessibleLabel",
+                  "fullyQualifiedName": "ContactenPagina.ContactenFormulier.Postcode_DataCard2.DataCardValue64.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Contacten",
-                "type": "Contacten.ContactenFormulier.Postcode_DataCard2.DataCardValue64"
+                "module": "ContactenPagina",
+                "type": "ContactenPagina.ContactenFormulier.Postcode_DataCard2.DataCardValue64"
               }
             }
           ],
@@ -1844,19 +1844,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Contacten.ContactenFormulier.Email_DataCard1.DataCardValue65.AccessibleLabel"
+                  "fullyQualifiedName": "ContactenPagina.ContactenFormulier.Email_DataCard1.DataCardValue65.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Contacten.ContactenFormulier.Email_DataCard1.DataCardValue65.AccessibleLabel",
+                  "fullyQualifiedName": "ContactenPagina.ContactenFormulier.Email_DataCard1.DataCardValue65.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Contacten",
-                "type": "Contacten.ContactenFormulier.Email_DataCard1.DataCardValue65"
+                "module": "ContactenPagina",
+                "type": "ContactenPagina.ContactenFormulier.Email_DataCard1.DataCardValue65"
               }
             }
           ],
@@ -3224,19 +3224,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Contacten.Label1_1.Text"
+                  "fullyQualifiedName": "ContactenPagina.Label1_1.Text"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Contacten.Label1_1.Text",
+                  "fullyQualifiedName": "ContactenPagina.Label1_1.Text",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "Text",
-                "module": "Contacten",
-                "type": "Contacten.Label1_1"
+                "module": "ContactenPagina",
+                "type": "ContactenPagina.Label1_1"
               }
             }
           ],
