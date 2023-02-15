@@ -116,10 +116,11 @@
     "Startscherm",
     "PersoonGegevens",
     "Financien",
-    "Contacten",
     "OverzichtWinkels",
     "ToevoegenWinkel",
     "WijzigenWinkel",
-    "Bezoeksverlag"
+    "Bezoeksverlag",
+    "Kierbezoeken",
+    "Contacten"
   ]
 }
