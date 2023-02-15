@@ -110,7 +110,7 @@
     "PublishDataLocally": false,
     "PublishResourcesLocally": false,
     "PublishTarget": "player",
-    "UserLocale": "en-US"
+    "UserLocale": "nl-NL"
   },
   "ScreenOrder": [
     "Startscherm",
@@ -121,6 +121,7 @@
     "WijzigenWinkel",
     "ToevoegenBezoekverslag",
     "Contacten",
-    "Kierbezoeken"
+    "Kierbezoeken",
+    "OpmerkingenDosier"
   ]
 }
