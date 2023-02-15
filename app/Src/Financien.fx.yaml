@@ -10,7 +10,7 @@ Financien As screen:
         FontWeight: =FontWeight.Semibold
         HoverColor: =RGBA(255, 255, 255, 1)
         HoverFill: =ColorFade(RGBA(164, 38, 44, 1), -20%)
-        OnSelect: =SubmitForm(FormFinanciën); Navigate(Contacten)
+        OnSelect: =SubmitForm(FormFinanciën); Navigate(ContactenPagina)
         Size: =15
         Text: ="Volgende"
         X: =1105
