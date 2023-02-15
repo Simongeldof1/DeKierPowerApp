@@ -17,11 +17,17 @@
           "Contacten_1": {
             "tableName": "8b65416d-9966-4a96-8ed5-01f098c0ade4"
           },
+          "Documents": {
+            "tableName": "eea774ca-0694-4130-a4cf-f2158b44fac5"
+          },
           "Financiën": {
             "tableName": "d9b9b99f-859f-4add-aab4-f76455807e77"
           },
           "Gasten": {
             "tableName": "af080b01-d1de-43dc-be28-ca21de22e003"
+          },
+          "Opmerkingen": {
+            "tableName": "91acd3c0-d7ac-4070-ac39-d6a77ce0f8fa"
           },
           "Winkels_1": {
             "tableName": "c6e608af-7b8b-4455-9ea5-60d97b0e1895"
@@ -33,7 +39,9 @@
       "Gasten",
       "Financiën",
       "Winkels_1",
-      "Contacten_1"
+      "Contacten_1",
+      "Opmerkingen",
+      "Documents"
     ],
     "dependencies": {},
     "dependents": [],

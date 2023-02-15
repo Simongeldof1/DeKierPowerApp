@@ -10,7 +10,7 @@ Contacten As screen:
         FontWeight: =FontWeight.Semibold
         HoverColor: =RGBA(255, 255, 255, 1)
         HoverFill: =ColorFade(RGBA(164, 38, 44, 1), -20%)
-        OnSelect: =Navigate(Startscherm)
+        OnSelect: =Navigate(OpmerkingenDosier)
         Size: =15
         Text: ="Volgende"
         X: =1105
