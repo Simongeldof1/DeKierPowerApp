@@ -106,6 +106,7 @@ DossierOpmerkingen As screen:
         BorderColor: =RGBA(89, 0, 0, 1)
         DataSource: =Opmerkingen
         Height: =384
+        Item: =Defaults(Opmerkingen)
         NumberOfColumns: =2
         Width: =1248
         X: =60
