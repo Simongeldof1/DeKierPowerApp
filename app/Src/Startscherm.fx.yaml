@@ -90,7 +90,7 @@ Startscherm As screen:
         HoverColor: =RGBA(255, 255, 255, 1)
         HoverFill: =ColorFade(RGBA(164, 38, 44, 1), -20%)
         Size: =15
-        Text: ="Button"
+        Text: ="Kierbezoeken"
         Width: =245
         X: =257
         Y: =634
