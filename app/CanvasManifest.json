@@ -113,16 +113,19 @@
     "UserLocale": "nl-NL"
   },
   "ScreenOrder": [
-    "Startscherm",
-    "PersoonGegevens",
-    "Financien",
-    "OverzichtWinkels",
-    "ToevoegenWinkel",
-    "WijzigenWinkel",
-    "ToevoegenBezoekverslag",
     "ContactenPagina",
-    "DossierOpmerkingen",
     "Documenten",
-    "Kierbezoeken"
+    "DossierOpmerkingen",
+    "Financien",
+    "Kierbezoeken",
+    "OverzichtBezoekverslagen",
+    "OverzichtWinkels",
+    "PersoonGegevens",
+    "Startscherm",
+    "ToevoegenBezoekverslag",
+    "ToevoegenKierbezoek",
+    "ToevoegenWinkel",
+    "Wijzigen bezoekverslag",
+    "WijzigenWinkel"
   ]
 }

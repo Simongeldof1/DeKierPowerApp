@@ -1,20 +1,20 @@
-Kierbezoeken As screen:
+OverzichtBezoekverslagen As screen:
     Fill: =RGBA(234, 234, 234, 1)
     LoadingSpinnerColor: =RGBA(164, 38, 44, 1)
 
-    "Gallery1 As gallery.'BrowseLayout_Vertical_TwoTextVariant_ver4.0'":
+    "Gallery2 As gallery.'BrowseLayout_Vertical_TwoTextVariant_ver4.0'":
         BorderColor: =RGBA(89, 0, 0, 1)
-        Height: =430
-        Items: =Kierbezoeken_2
+        Height: =455
+        Items: =Bezoeksverlagen_1
         Layout: =Layout.Vertical
         TemplatePadding: =0
         TemplateSize: =Min(104, Self.Height - 60)
-        Width: =1224
-        X: =85
-        Y: =206
+        Width: =1300
+        X: =33
+        Y: =165
         ZIndex: =1
 
-        Title4 As label:
+        Title2 As label:
             Color: =RGBA(0, 0, 0, 1)
             DisabledColor: =RGBA(166, 166, 166, 1)
             FontWeight: =FontWeight.Semibold
@@ -25,14 +25,14 @@ Kierbezoeken As screen:
             PaddingRight: =0
             PaddingTop: =0
             Size: =20
-            Text: =ThisItem.Bezoeker.Value
+            Text: =ThisItem.Title
             VerticalAlign: =VerticalAlign.Top
             Width: =Parent.TemplateWidth - 104
             X: =32
             Y: =16
             ZIndex: =1
 
-        Subtitle3 As label:
+        Subtitle1 As label:
             Color: =RGBA(0, 0, 0, 1)
             DisabledColor: =RGBA(166, 166, 166, 1)
             Height: =Self.Size * 1.8
@@ -42,14 +42,14 @@ Kierbezoeken As screen:
             PaddingRight: =0
             PaddingTop: =0
             Size: =18
-            Text: =ThisItem.'Datum bezoek'
+            Text: =ThisItem.'Naam bezoeker'.Value
             VerticalAlign: =VerticalAlign.Top
             Width: =Parent.TemplateWidth - 104
             X: =32
-            Y: =Title4.Y + Title4.Height + 4
+            Y: =Title2.Y + Title2.Height + 4
             ZIndex: =2
 
-        NextArrow3 As icon.ChevronRight:
+        NextArrow1 As icon.ChevronRight:
             AccessibleLabel: =Self.Tooltip
             BorderColor: =RGBA(89, 0, 0, 1)
             Color: =RGBA(89, 0, 0, 1)
@@ -57,7 +57,7 @@ Kierbezoeken As screen:
             DisabledColor: =RGBA(244, 244, 244, 1)
             Height: =60
             Icon: =Icon.ChevronRight
-            OnSelect: =Select(Parent)
+            OnSelect: =Set(varMode,"Edit"); Select(Parent) ;Navigate('Wijzigen bezoekverslag',Cover); Set(glbRecord, ThisItem)
             PaddingBottom: =10
             PaddingLeft: =10
             PaddingRight: =10
@@ -69,7 +69,7 @@ Kierbezoeken As screen:
             Y: =(Parent.TemplateHeight / 2) - (Self.Height / 2)
             ZIndex: =3
 
-        Separator3 As rectangle:
+        Separator1 As rectangle:
             BorderColor: =RGBA(89, 0, 0, 1)
             Fill: =RGBA(89, 0, 0, 1)
             Height: =1
@@ -78,45 +78,27 @@ Kierbezoeken As screen:
             Y: =Parent.TemplateHeight - 1
             ZIndex: =4
 
-    Button3 As button:
-        DisabledBorderColor: =RGBA(166, 166, 166, 1)
-        DisabledColor: =RGBA(166, 166, 166, 1)
-        DisabledFill: =RGBA(244, 244, 244, 1)
-        Fill: =RGBA(164, 38, 44, 1)
-        FontWeight: =FontWeight.Semibold
-        Height: =62
-        HoverColor: =RGBA(255, 255, 255, 1)
-        HoverFill: =ColorFade(RGBA(164, 38, 44, 1), -20%)
-        OnSelect: =Navigate(Startscherm)
-        Size: =15
-        Text: ="Terug naar startscherm"
-        Width: =215
-        X: =54
-        Y: =661
-        ZIndex: =2
-
-    Rectangle1_4 As rectangle:
+    Rectangle1_5 As rectangle:
         BorderColor: =RGBA(89, 0, 0, 1)
         Fill: =RGBA(164, 38, 44, 1)
         Height: =146
         Width: =1366
-        Y: =20
-        ZIndex: =3
+        ZIndex: =1
 
-    Hoofdmenu_4 As label:
+    Hoofdmenu_5 As label:
         BorderColor: =RGBA(89, 0, 0, 1)
         Color: =RGBA(251, 251, 251, 1)
         DisabledColor: =RGBA(166, 166, 166, 1)
         FontWeight: =FontWeight.Bold
-        Height: =52
+        Height: =47
         Size: =30
-        Text: ="KIERBEZOEKEN"
-        Width: =329
-        X: =530
-        Y: =62
-        ZIndex: =4
+        Text: ="OVERZICHT BEZOEKVERSLAGEN"
+        Width: =684
+        X: =341
+        Y: =47
+        ZIndex: =2
 
-    DatumVandaag_4 As label:
+    DatumVandaag_5 As label:
         BorderColor: =RGBA(89, 0, 0, 1)
         Color: =RGBA(251, 251, 251, 1)
         DisabledColor: =RGBA(166, 166, 166, 1)
@@ -125,32 +107,51 @@ Kierbezoeken As screen:
         Text: =Text(Today(),"dd/mm/yyyy")
         Width: =167
         X: =1166
-        Y: =71
-        ZIndex: =5
+        Y: =51
+        ZIndex: =3
 
-    Image4_4 As image:
+    Image4_5 As image:
         BorderColor: =RGBA(89, 0, 0, 1)
         DisabledBorderColor: =RGBA(166, 166, 166, 1)
         DisabledFill: =RGBA(244, 244, 244, 1)
         Height: =117
         Image: ='MicrosoftTeams-image (1)'
         Width: =194
-        Y: =38
-        ZIndex: =6
+        Y: =18
+        ZIndex: =4
 
-    Button5 As button:
+    Button6_1 As button:
         DisabledBorderColor: =RGBA(166, 166, 166, 1)
         DisabledColor: =RGBA(166, 166, 166, 1)
         DisabledFill: =RGBA(244, 244, 244, 1)
         Fill: =RGBA(164, 38, 44, 1)
         FontWeight: =FontWeight.Semibold
-        Height: =62
+        Height: =77
         HoverColor: =RGBA(255, 255, 255, 1)
         HoverFill: =ColorFade(RGBA(164, 38, 44, 1), -20%)
+        OnSelect: =Navigate(Startscherm)
         Size: =15
-        Text: ="Bezoek toevoegen"
-        Width: =212
-        X: =1037
-        Y: =661
+        Text: ="Terug naar startscherm"
+        Width: =277
+        X: =72
+        Y: =624
+        ZIndex: =6
+
+    WinkelToevoegen_1 As button:
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        Fill: =RGBA(164, 38, 44, 1)
+        FontWeight: =FontWeight.Semibold
+        Height: =77
+        HoverColor: =RGBA(255, 255, 255, 1)
+        HoverFill: =ColorFade(RGBA(164, 38, 44, 1), -20%)
+        OnSelect: |
+            =NewForm(FormBezoekverslag); Navigate(ToevoegenBezoekverslag);
+        Size: =15
+        Text: ="Nieuw bezoekverslag"
+        Width: =290
+        X: =978
+        Y: =624
         ZIndex: =7
 
