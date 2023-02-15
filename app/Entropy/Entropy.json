@@ -335,6 +335,7 @@
     "Image4_2": 5,
     "Image8": 229,
     "Kennis Nederlands_DataCard1": 192,
+    "Kierbezoeken": 499,
     "Kindergeld_DataCard1": 30,
     "Label1": 8,
     "Leefloon OCMW_DataCard1": 20,
@@ -502,7 +503,7 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "02/15/2023 12:51:03",
+  "HeaderLastSavedDateTimeUTC": "02/15/2023 12:53:39",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "21ef9927-9708-4ba0-b8aa-9e50e12eda06": "\"/providers/microsoft.powerapps/apis/shared_sharepointonline/connections/e1922b9fa4114495b0586d3d570cf46a\""
@@ -875,6 +876,7 @@
     "Image4_2": {},
     "Image8": {},
     "Kennis Nederlands_DataCard1": {},
+    "Kierbezoeken": {},
     "Kindergeld_DataCard1": {},
     "Label1": {},
     "Leefloon OCMW_DataCard1": {},
@@ -1375,6 +1377,7 @@
     "Image4_2": 104,
     "Image8": 234,
     "Kennis Nederlands_DataCard1": 71,
+    "Kierbezoeken": 0,
     "Kindergeld_DataCard1": 129,
     "Label1": 107,
     "Leefloon OCMW_DataCard1": 119,
