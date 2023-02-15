@@ -2,19 +2,19 @@ Kierbezoeken As screen:
     Fill: =RGBA(234, 234, 234, 1)
     LoadingSpinnerColor: =RGBA(164, 38, 44, 1)
 
-    "Gallery4 As gallery.'BrowseLayout_Vertical_TwoTextVariant_ver4.0'":
+    "Gallery1 As gallery.'BrowseLayout_Vertical_TwoTextVariant_ver4.0'":
         BorderColor: =RGBA(89, 0, 0, 1)
-        Height: =312
-        Items: =Kierbezoeken_1
+        Height: =430
+        Items: =Kierbezoeken_2
         Layout: =Layout.Vertical
         TemplatePadding: =0
         TemplateSize: =Min(104, Self.Height - 60)
-        Width: =1289
-        X: =38
-        Y: =274
+        Width: =1224
+        X: =85
+        Y: =206
         ZIndex: =1
 
-        Title8 As label:
+        Title4 As label:
             Color: =RGBA(0, 0, 0, 1)
             DisabledColor: =RGBA(166, 166, 166, 1)
             FontWeight: =FontWeight.Semibold
@@ -32,10 +32,10 @@ Kierbezoeken As screen:
             Y: =16
             ZIndex: =1
 
-        Subtitle7 As label:
+        Subtitle3 As label:
             Color: =RGBA(0, 0, 0, 1)
             DisabledColor: =RGBA(166, 166, 166, 1)
-            Height: =26
+            Height: =Self.Size * 1.8
             OnSelect: =Select(Parent)
             PaddingBottom: =0
             PaddingLeft: =0
@@ -44,11 +44,12 @@ Kierbezoeken As screen:
             Size: =18
             Text: =ThisItem.'Datum bezoek'
             VerticalAlign: =VerticalAlign.Top
+            Width: =Parent.TemplateWidth - 104
             X: =32
-            Y: =Title8.Y + Title8.Height + 4
+            Y: =Title4.Y + Title4.Height + 4
             ZIndex: =2
 
-        NextArrow6 As icon.ChevronRight:
+        NextArrow3 As icon.ChevronRight:
             AccessibleLabel: =Self.Tooltip
             BorderColor: =RGBA(89, 0, 0, 1)
             Color: =RGBA(89, 0, 0, 1)
@@ -68,7 +69,7 @@ Kierbezoeken As screen:
             Y: =(Parent.TemplateHeight / 2) - (Self.Height / 2)
             ZIndex: =3
 
-        Separator6 As rectangle:
+        Separator3 As rectangle:
             BorderColor: =RGBA(89, 0, 0, 1)
             Fill: =RGBA(89, 0, 0, 1)
             Height: =1
