@@ -20,9 +20,6 @@
           "Gasten": {
             "tableName": "af080b01-d1de-43dc-be28-ca21de22e003"
           },
-          "Kierbezoeken_1": {
-            "tableName": "370b05b3-58a7-45cd-9fef-77b479c45dd6"
-          },
           "Winkels_1": {
             "tableName": "c6e608af-7b8b-4455-9ea5-60d97b0e1895"
           }
@@ -32,8 +29,7 @@
     "dataSources": [
       "Gasten",
       "Financiën",
-      "Winkels_1",
-      "Kierbezoeken_1"
+      "Winkels_1"
     ],
     "dependencies": {},
     "dependents": [],
