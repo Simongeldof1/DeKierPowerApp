@@ -14,6 +14,9 @@
     "datasets": {
       "https://dekier.sharepoint.com/sites/DeKier": {
         "dataSources": {
+          "Bezoeksverlagen": {
+            "tableName": "f88e2d3a-ae10-4018-8359-83063fcb6eaa"
+          },
           "Financiën": {
             "tableName": "d9b9b99f-859f-4add-aab4-f76455807e77"
           },
@@ -29,7 +32,8 @@
     "dataSources": [
       "Gasten",
       "Financiën",
-      "Winkels_1"
+      "Winkels_1",
+      "Bezoeksverlagen"
     ],
     "dependencies": {},
     "dependents": [],
