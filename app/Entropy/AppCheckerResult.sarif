@@ -101,7 +101,7 @@
                 },
                 "region": {
                   "charLength": 16,
-                  "charOffset": 107,
+                  "charOffset": 101,
                   "snippet": {
                     "text": "'Volledige Naam'"
                   }
@@ -141,7 +141,7 @@
                 },
                 "region": {
                   "charLength": 1,
-                  "charOffset": 124,
+                  "charOffset": 118,
                   "snippet": {
                     "text": "="
                   }
