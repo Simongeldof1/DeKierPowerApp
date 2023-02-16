@@ -9,82 +9,6 @@ OverzichtBezoekverslagen As screen:
         Width: =1366
         ZIndex: =1
 
-    "Gallery2 As gallery.'BrowseLayout_Vertical_TwoTextVariant_ver4.0'":
-        BorderColor: =RGBA(89, 0, 0, 1)
-        Height: =455
-        Items: =Bezoeksverlagen_1
-        Layout: =Layout.Vertical
-        TemplatePadding: =0
-        TemplateSize: =Min(104, Self.Height - 60)
-        Width: =1300
-        X: =33
-        Y: =165
-        ZIndex: =1
-
-        Title2 As label:
-            Color: =RGBA(0, 0, 0, 1)
-            DisabledColor: =RGBA(166, 166, 166, 1)
-            FontWeight: =FontWeight.Semibold
-            Height: =Self.Size * 1.8
-            OnSelect: =Select(Parent)
-            PaddingBottom: =0
-            PaddingLeft: =0
-            PaddingRight: =0
-            PaddingTop: =0
-            Size: =20
-            Text: =ThisItem.Title
-            VerticalAlign: =VerticalAlign.Top
-            Width: =Parent.TemplateWidth - 104
-            X: =32
-            Y: =16
-            ZIndex: =1
-
-        Subtitle1 As label:
-            Color: =RGBA(0, 0, 0, 1)
-            DisabledColor: =RGBA(166, 166, 166, 1)
-            Height: =Self.Size * 1.8
-            OnSelect: =Select(Parent)
-            PaddingBottom: =0
-            PaddingLeft: =0
-            PaddingRight: =0
-            PaddingTop: =0
-            Size: =18
-            Text: =ThisItem.'Naam bezoeker'.Value
-            VerticalAlign: =VerticalAlign.Top
-            Width: =Parent.TemplateWidth - 104
-            X: =32
-            Y: =Title2.Y + Title2.Height + 4
-            ZIndex: =2
-
-        NextArrow1 As icon.ChevronRight:
-            AccessibleLabel: =Self.Tooltip
-            BorderColor: =RGBA(89, 0, 0, 1)
-            Color: =RGBA(89, 0, 0, 1)
-            DisabledBorderColor: =RGBA(166, 166, 166, 1)
-            DisabledColor: =RGBA(244, 244, 244, 1)
-            Height: =60
-            Icon: =Icon.ChevronRight
-            OnSelect: =Set(varMode,"Edit"); Select(Parent) ;Navigate('Wijzigen bezoekverslag',Cover); Set(glbRecord, ThisItem)
-            PaddingBottom: =10
-            PaddingLeft: =10
-            PaddingRight: =10
-            PaddingTop: =10
-            TabIndex: =0
-            Tooltip: ="View item details"
-            Width: =60
-            X: =Parent.TemplateWidth - Self.Width - 5
-            Y: =(Parent.TemplateHeight / 2) - (Self.Height / 2)
-            ZIndex: =3
-
-        Separator1 As rectangle:
-            BorderColor: =RGBA(89, 0, 0, 1)
-            Fill: =RGBA(89, 0, 0, 1)
-            Height: =1
-            OnSelect: =Select(Parent)
-            Width: =Parent.TemplateWidth
-            Y: =Parent.TemplateHeight - 1
-            ZIndex: =4
-
     Hoofdmenu_5 As label:
         BorderColor: =RGBA(89, 0, 0, 1)
         Color: =RGBA(251, 251, 251, 1)
@@ -147,7 +71,7 @@ OverzichtBezoekverslagen As screen:
         HoverColor: =RGBA(255, 255, 255, 1)
         HoverFill: =ColorFade(RGBA(164, 38, 44, 1), -20%)
         OnSelect: |
-            =NewForm(FormBezoekverslag); Navigate(ToevoegenBezoekverslag);
+            =NewForm(FormToevoegenVerslag); Navigate(ToevoegenBezoekverslag);
         Size: =15
         Text: ="Nieuw bezoekverslag"
         Width: =290

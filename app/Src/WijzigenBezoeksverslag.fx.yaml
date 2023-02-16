@@ -1,31 +1,28 @@
-"'Wijzigen bezoekverslag' As screen":
+WijzigenBezoeksverslag As screen:
     Fill: =RGBA(234, 234, 234, 1)
     LoadingSpinnerColor: =RGBA(164, 38, 44, 1)
-    OnVisible: =If(varMode = "Edit", EditForm(FormBezoekverslag_1),NewForm(FormBezoekverslag_1))
 
-    Rectangle1_6 As rectangle:
+    Rectangle1_9 As rectangle:
         BorderColor: =RGBA(89, 0, 0, 1)
         Fill: =RGBA(164, 38, 44, 1)
         Height: =146
         Width: =1366
         ZIndex: =1
 
-    Hoofdmenu_6 As label:
+    Hoofdmenu_9 As label:
         BorderColor: =RGBA(89, 0, 0, 1)
         Color: =RGBA(251, 251, 251, 1)
         DisabledColor: =RGBA(166, 166, 166, 1)
         FontWeight: =FontWeight.Bold
-        Height: =52
+        Height: =47
         Size: =30
-        Text: |-
-            ="BEZOEKVERSLAG
-            "
-        Width: =446
-        X: =460
+        Text: ="BEZOEKSVERSLAG"
+        Width: =366
+        X: =500
         Y: =47
         ZIndex: =2
 
-    DatumVandaag_6 As label:
+    DatumVandaag_9 As label:
         BorderColor: =RGBA(89, 0, 0, 1)
         Color: =RGBA(251, 251, 251, 1)
         DisabledColor: =RGBA(166, 166, 166, 1)
@@ -37,7 +34,7 @@
         Y: =51
         ZIndex: =3
 
-    Image4_6 As image:
+    Image4_9 As image:
         BorderColor: =RGBA(89, 0, 0, 1)
         DisabledBorderColor: =RGBA(166, 166, 166, 1)
         DisabledFill: =RGBA(244, 244, 244, 1)
@@ -47,136 +44,14 @@
         Y: =18
         ZIndex: =4
 
-    Button5_1 As button:
-        DisabledBorderColor: =RGBA(166, 166, 166, 1)
-        DisabledColor: =RGBA(166, 166, 166, 1)
-        DisabledFill: =RGBA(244, 244, 244, 1)
-        Fill: =RGBA(164, 38, 44, 1)
-        FontWeight: =FontWeight.Semibold
-        HoverColor: =RGBA(255, 255, 255, 1)
-        HoverFill: =ColorFade(RGBA(164, 38, 44, 1), -20%)
-        OnSelect: =SubmitForm(FormBezoekverslag_1); Navigate(OverzichtBezoekverslagen)
-        Size: =15
-        Text: ="Opslaan"
-        X: =1055
-        Y: =666
-        ZIndex: =6
-
-    Button8_3 As button:
-        DisabledBorderColor: =RGBA(166, 166, 166, 1)
-        DisabledColor: =RGBA(166, 166, 166, 1)
-        DisabledFill: =RGBA(244, 244, 244, 1)
-        Fill: =RGBA(164, 38, 44, 1)
-        FontWeight: =FontWeight.Semibold
-        HoverColor: =RGBA(255, 255, 255, 1)
-        HoverFill: =ColorFade(RGBA(164, 38, 44, 1), -20%)
-        OnSelect: =Navigate(OverzichtBezoekverslagen)
-        Size: =15
-        Text: ="Terug"
-        X: =72
-        Y: =666
-        ZIndex: =7
-
-    FormBezoekverslag_1 As form:
+    FormWijzigenVerslag As form:
         BorderColor: =RGBA(89, 0, 0, 1)
-        DataSource: =Bezoeksverlagen_1
-        DefaultMode: =FormMode.New
-        Height: =352
-        Item: =glbRecord
-        Width: =1338
-        X: =14
-        Y: =259
-        ZIndex: =8
-
-        "'Naam bezoeker_DataCard2_1' As typedDataCard.comboBoxEditCard":
-            BorderColor: =RGBA(89, 0, 0, 1)
-            BorderStyle: =BorderStyle.Solid
-            DataField: ="Naambezoeker"
-            Default: =ThisItem.'Naam bezoeker'
-            DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@Bezoeksverlagen_1],DataSourceInfo.DisplayName,"Naambezoeker")
-            Fill: =RGBA(0, 0, 0, 0)
-            Height: =50
-            Required: =false
-            Update: =DataCardValue64_1.Selected
-            Width: =446
-            X: =0
-            Y: =0
-            ZIndex: =2
-
-            DataCardKey64_1 As label:
-                AutoHeight: =true
-                Color: =RGBA(89, 0, 0, 1)
-                DisabledColor: =RGBA(166, 166, 166, 1)
-                Height: =34
-                Size: =13
-                Text: =Parent.DisplayName
-                Width: =(Parent.Width - 60) * 0.4
-                Wrap: =false
-                Y: =10
-                ZIndex: =1
-
-            DataCardValue64_1 As combobox:
-                BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
-                ChevronBackground: =RGBA(164, 38, 44, 1)
-                ChevronDisabledBackground: =RGBA(166, 166, 166, 1)
-                ChevronDisabledFill: =RGBA(244, 244, 244, 1)
-                ChevronHoverBackground: =ColorFade(RGBA(164, 38, 44, 1), -20%)
-                ChevronHoverFill: =RGBA(255, 255, 255, 1)
-                DefaultSelectedItems: =Parent.Default
-                DisabledBorderColor: =RGBA(166, 166, 166, 1)
-                DisabledColor: =RGBA(166, 166, 166, 1)
-                DisabledFill: =RGBA(244, 244, 244, 1)
-                DisplayFields: =["Value"]
-                DisplayMode: =Parent.DisplayMode
-                HoverColor: =RGBA(0, 0, 0, 1)
-                HoverFill: =RGBA(222, 179, 184, 1)
-                IsSearchable: =false
-                Items: =Choices([@Bezoeksverlagen_1].Naambezoeker)
-                PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
-                PressedColor: =RGBA(255, 255, 255, 1)
-                PressedFill: =RGBA(89, 0, 0, 1)
-                SearchFields: =["Value"]
-                SearchItems: =[]
-                SelectionFill: =RGBA(164, 38, 44, 1)
-                SelectMultiple: =false
-                Size: =13
-                Tooltip: =Parent.DisplayName
-                Width: =(Parent.Width - 60) * 0.6
-                X: =185
-                Y: =10
-                ZIndex: =2
-
-            ErrorMessage48_1 As label:
-                AutoHeight: =true
-                Color: =RGBA(168, 0, 0, 1)
-                DisabledColor: =RGBA(166, 166, 166, 1)
-                FontWeight: =FontWeight.Semibold
-                Height: =10
-                Live: =Live.Assertive
-                PaddingBottom: =0
-                PaddingLeft: =0
-                PaddingRight: =0
-                PaddingTop: =0
-                Text: =Parent.Error
-                Visible: =Parent.DisplayMode=DisplayMode.Edit
-                Width: =Parent.Width - 60
-                X: =30
-                Y: =DataCardValue64_1.Y + DataCardValue64_1.Height
-                ZIndex: =3
-
-            StarVisible48_1 As label:
-                Align: =Align.Center
-                Color: =RGBA(89, 0, 0, 1)
-                DisabledColor: =RGBA(166, 166, 166, 1)
-                Height: =DataCardKey64_1.Height
-                Size: =13
-                Text: ="*"
-                Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
-                Width: =30
-                Wrap: =false
-                Y: =DataCardKey64_1.Y
-                ZIndex: =4
+        DataSource: =Bezoekverslagen
+        Height: =458
+        Width: =1216
+        X: =64
+        Y: =198
+        ZIndex: =5
 
         "'Datum bezoek_DataCard1_1' As typedDataCard.dateEditCard":
             BorderColor: =RGBA(89, 0, 0, 1)
@@ -184,30 +59,30 @@
             DataField: ="Datumbezoek"
             Default: =ThisItem.'Datum bezoek'
             DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@Bezoeksverlagen_1],DataSourceInfo.DisplayName,"Datumbezoek")
+            DisplayName: =DataSourceInfo([@Bezoekverslagen],DataSourceInfo.DisplayName,"Datumbezoek")
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
             Required: =false
-            Update: =DataCardValue47_1.SelectedDate
-            Width: =446
-            X: =1
+            Update: =DataCardValue67_1.SelectedDate
+            Width: =405
+            X: =0
             Y: =0
-            ZIndex: =2
+            ZIndex: =6
 
-            DataCardKey47_1 As label:
+            DataCardKey67_1 As label:
                 AutoHeight: =true
                 Color: =RGBA(89, 0, 0, 1)
                 DisabledColor: =RGBA(166, 166, 166, 1)
                 Height: =34
                 Size: =13
                 Text: =Parent.DisplayName
-                Width: =(Parent.Width - 60) * 0.4
+                Width: =Parent.Width - 60
                 Wrap: =false
                 X: =30
-                Y: =10 + (DataCardValue47_1.Height / 2) - (Self.Height / 2)
+                Y: =10
                 ZIndex: =1
 
-            DataCardValue47_1 As datepicker:
+            DataCardValue67_1 As datepicker:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                 CalendarHeaderFill: =RGBA(164, 38, 44, 1)
                 Color: =RGBA(0, 0, 0, 1)
@@ -225,12 +100,12 @@
                 SelectedDateFill: =RGBA(164, 38, 44, 1)
                 StartYear: =1899
                 Tooltip: =Parent.DisplayName
-                Width: =(Parent.Width - 60) * 0.6
-                X: =DataCardKey47_1.X + DataCardKey47_1.Width
-                Y: =10
+                Width: =Parent.Width - 60
+                X: =30
+                Y: =DataCardKey67_1.Y + DataCardKey67_1.Height + 5
                 ZIndex: =2
 
-            ErrorMessage44_1 As label:
+            ErrorMessage64_1 As label:
                 AutoHeight: =true
                 Color: =RGBA(168, 0, 0, 1)
                 DisabledColor: =RGBA(166, 166, 166, 1)
@@ -245,52 +120,52 @@
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardValue47_1.Y + DataCardValue47_1.Height
+                Y: =DataCardValue67_1.Y + DataCardValue67_1.Height
                 ZIndex: =3
 
-            StarVisible44_1 As label:
+            StarVisible64_1 As label:
                 Align: =Align.Center
                 Color: =RGBA(89, 0, 0, 1)
                 DisabledColor: =RGBA(166, 166, 166, 1)
-                Height: =DataCardKey47_1.Height
+                Height: =DataCardKey67_1.Height
                 Size: =13
                 Text: ="*"
                 Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
                 Width: =30
                 Wrap: =false
-                Y: =DataCardKey47_1.Y
+                Y: =DataCardKey67_1.Y
                 ZIndex: =4
 
-        "'Voor stuurgroep_DataCard1_1' As typedDataCard.comboBoxEditCard":
+        "'Naam bezoeker_DataCard1_1' As typedDataCard.comboBoxEditCard":
             BorderColor: =RGBA(89, 0, 0, 1)
             BorderStyle: =BorderStyle.Solid
-            DataField: ="Voorstuurgroep"
-            Default: =ThisItem.'Voor stuurgroep'
+            DataField: ="Naambezoeker"
+            Default: =ThisItem.'Naam bezoeker'
             DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@Bezoeksverlagen_1],DataSourceInfo.DisplayName,"Voorstuurgroep")
+            DisplayName: =DataSourceInfo([@Bezoekverslagen],DataSourceInfo.DisplayName,"Naambezoeker")
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
             Required: =false
-            Update: =DataCardValue49_1.Selected
-            Width: =446
-            X: =2
+            Update: =DataCardValue74_1.Selected
+            Width: =405
+            X: =1
             Y: =0
-            ZIndex: =2
+            ZIndex: =6
 
-            DataCardKey49_1 As label:
+            DataCardKey74_1 As label:
                 AutoHeight: =true
                 Color: =RGBA(89, 0, 0, 1)
                 DisabledColor: =RGBA(166, 166, 166, 1)
                 Height: =34
                 Size: =13
                 Text: =Parent.DisplayName
-                Width: =(Parent.Width - 60) * 0.4
+                Width: =Parent.Width - 60
                 Wrap: =false
                 X: =30
-                Y: =10 + (DataCardValue49_1.Height / 2) - (Self.Height / 2)
+                Y: =10
                 ZIndex: =1
 
-            DataCardValue49_1 As combobox:
+            DataCardValue74_1 As combobox:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                 ChevronBackground: =RGBA(164, 38, 44, 1)
                 ChevronDisabledBackground: =RGBA(166, 166, 166, 1)
@@ -305,23 +180,22 @@
                 DisplayMode: =Parent.DisplayMode
                 HoverColor: =RGBA(0, 0, 0, 1)
                 HoverFill: =RGBA(222, 179, 184, 1)
-                IsSearchable: =false
-                Items: =Choices([@Bezoeksverlagen_1].Voorstuurgroep)
+                Items: =Choices([@Bezoekverslagen].Naambezoeker)
                 PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
                 PressedColor: =RGBA(255, 255, 255, 1)
                 PressedFill: =RGBA(89, 0, 0, 1)
                 SearchFields: =["Value"]
-                SearchItems: =[]
+                SearchItems: =Choices(Bezoekverslagen.Naambezoeker,DataCardValue74_1.SearchText)
                 SelectionFill: =RGBA(164, 38, 44, 1)
                 SelectMultiple: =false
                 Size: =13
                 Tooltip: =Parent.DisplayName
-                Width: =(Parent.Width - 60) * 0.6
-                X: =DataCardKey49_1.X + DataCardKey49_1.Width
-                Y: =10
+                Width: =Parent.Width - 60
+                X: =30
+                Y: =DataCardKey74_1.Y + DataCardKey74_1.Height + 5
                 ZIndex: =2
 
-            ErrorMessage46_1 As label:
+            ErrorMessage71_1 As label:
                 AutoHeight: =true
                 Color: =RGBA(168, 0, 0, 1)
                 DisabledColor: =RGBA(166, 166, 166, 1)
@@ -336,20 +210,110 @@
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardValue49_1.Y + DataCardValue49_1.Height
+                Y: =DataCardValue74_1.Y + DataCardValue74_1.Height
                 ZIndex: =3
 
-            StarVisible46_1 As label:
+            StarVisible71_1 As label:
                 Align: =Align.Center
                 Color: =RGBA(89, 0, 0, 1)
                 DisabledColor: =RGBA(166, 166, 166, 1)
-                Height: =DataCardKey49_1.Height
+                Height: =DataCardKey74_1.Height
                 Size: =13
                 Text: ="*"
                 Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
                 Width: =30
                 Wrap: =false
-                Y: =DataCardKey49_1.Y
+                Y: =DataCardKey74_1.Y
+                ZIndex: =4
+
+        "'Voor stuurgroep_DataCard1_1' As typedDataCard.comboBoxEditCard":
+            BorderColor: =RGBA(89, 0, 0, 1)
+            BorderStyle: =BorderStyle.Solid
+            DataField: ="Voorstuurgroep"
+            Default: =ThisItem.'Voor stuurgroep'
+            DisplayMode: =Parent.DisplayMode
+            DisplayName: =DataSourceInfo([@Bezoekverslagen],DataSourceInfo.DisplayName,"Voorstuurgroep")
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =50
+            Required: =false
+            Update: =DataCardValue72_1.Selected
+            Width: =405
+            X: =2
+            Y: =0
+            ZIndex: =6
+
+            DataCardKey72_1 As label:
+                AutoHeight: =true
+                Color: =RGBA(89, 0, 0, 1)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                Height: =34
+                Size: =13
+                Text: =Parent.DisplayName
+                Width: =Parent.Width - 60
+                Wrap: =false
+                X: =30
+                Y: =10
+                ZIndex: =1
+
+            DataCardValue72_1 As combobox:
+                BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+                ChevronBackground: =RGBA(164, 38, 44, 1)
+                ChevronDisabledBackground: =RGBA(166, 166, 166, 1)
+                ChevronDisabledFill: =RGBA(244, 244, 244, 1)
+                ChevronHoverBackground: =ColorFade(RGBA(164, 38, 44, 1), -20%)
+                ChevronHoverFill: =RGBA(255, 255, 255, 1)
+                DefaultSelectedItems: =Parent.Default
+                DisabledBorderColor: =RGBA(166, 166, 166, 1)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                DisabledFill: =RGBA(244, 244, 244, 1)
+                DisplayFields: =["Value"]
+                DisplayMode: =Parent.DisplayMode
+                HoverColor: =RGBA(0, 0, 0, 1)
+                HoverFill: =RGBA(222, 179, 184, 1)
+                Items: =Choices([@Bezoekverslagen].Voorstuurgroep)
+                PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
+                PressedColor: =RGBA(255, 255, 255, 1)
+                PressedFill: =RGBA(89, 0, 0, 1)
+                SearchFields: =["Value"]
+                SearchItems: =Choices(Bezoekverslagen.Voorstuurgroep,DataCardValue72_1.SearchText)
+                SelectionFill: =RGBA(164, 38, 44, 1)
+                SelectMultiple: =false
+                Size: =13
+                Tooltip: =Parent.DisplayName
+                Width: =Parent.Width - 60
+                X: =30
+                Y: =DataCardKey72_1.Y + DataCardKey72_1.Height + 5
+                ZIndex: =2
+
+            ErrorMessage69_1 As label:
+                AutoHeight: =true
+                Color: =RGBA(168, 0, 0, 1)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                FontWeight: =FontWeight.Semibold
+                Height: =10
+                Live: =Live.Assertive
+                PaddingBottom: =0
+                PaddingLeft: =0
+                PaddingRight: =0
+                PaddingTop: =0
+                Text: =Parent.Error
+                Visible: =Parent.DisplayMode=DisplayMode.Edit
+                Width: =Parent.Width - 60
+                X: =30
+                Y: =DataCardValue72_1.Y + DataCardValue72_1.Height
+                ZIndex: =3
+
+            StarVisible69_1 As label:
+                Align: =Align.Center
+                Color: =RGBA(89, 0, 0, 1)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                Height: =DataCardKey72_1.Height
+                Size: =13
+                Text: ="*"
+                Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
+                Width: =30
+                Wrap: =false
+                Y: =DataCardKey72_1.Y
                 ZIndex: =4
 
         Permanentienaam_DataCard1_1 As typedDataCard.comboBoxEditCard:
@@ -358,29 +322,30 @@
             DataField: ="Permanentienaam"
             Default: =ThisItem.Permanentienaam
             DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@Bezoeksverlagen_1],DataSourceInfo.DisplayName,"Permanentienaam")
+            DisplayName: =DataSourceInfo([@Bezoekverslagen],DataSourceInfo.DisplayName,"Permanentienaam")
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
             Required: =false
-            Update: =DataCardValue48_1.Selected
-            Width: =446
+            Update: =DataCardValue71_1.Selected
+            Width: =405
             X: =0
             Y: =1
-            ZIndex: =2
+            ZIndex: =6
 
-            DataCardKey48_1 As label:
+            DataCardKey71_1 As label:
                 AutoHeight: =true
                 Color: =RGBA(89, 0, 0, 1)
                 DisabledColor: =RGBA(166, 166, 166, 1)
-                Height: =33
+                Height: =34
                 Size: =13
                 Text: =Parent.DisplayName
-                Width: =172
+                Width: =Parent.Width - 60
                 Wrap: =false
-                Y: =13
+                X: =30
+                Y: =10
                 ZIndex: =1
 
-            DataCardValue48_1 As combobox:
+            DataCardValue71_1 As combobox:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                 ChevronBackground: =RGBA(164, 38, 44, 1)
                 ChevronDisabledBackground: =RGBA(166, 166, 166, 1)
@@ -395,24 +360,23 @@
                 DisplayMode: =Parent.DisplayMode
                 HoverColor: =RGBA(0, 0, 0, 1)
                 HoverFill: =RGBA(222, 179, 184, 1)
-                IsSearchable: =false
-                Items: =Choices([@Bezoeksverlagen_1].Permanentienaam)
+                Items: =Choices([@Bezoekverslagen].Permanentienaam)
                 PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
                 PressedColor: =RGBA(255, 255, 255, 1)
                 PressedFill: =RGBA(89, 0, 0, 1)
                 SearchFields: =["DisplayName"]
-                SearchItems: =[]
+                SearchItems: =Choices(Bezoekverslagen.Permanentienaam,DataCardValue71_1.SearchText)
                 SelectionFill: =RGBA(164, 38, 44, 1)
                 SelectMultiple: =false
                 Size: =13
                 Template: =ListItemTemplate.Person
                 Tooltip: =Parent.DisplayName
-                Width: =(Parent.Width - 60) * 0.6
-                X: =185
-                Y: =10
+                Width: =Parent.Width - 60
+                X: =30
+                Y: =DataCardKey71_1.Y + DataCardKey71_1.Height + 5
                 ZIndex: =2
 
-            ErrorMessage45_1 As label:
+            ErrorMessage68_1 As label:
                 AutoHeight: =true
                 Color: =RGBA(168, 0, 0, 1)
                 DisabledColor: =RGBA(166, 166, 166, 1)
@@ -427,20 +391,20 @@
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardValue48_1.Y + DataCardValue48_1.Height
+                Y: =DataCardValue71_1.Y + DataCardValue71_1.Height
                 ZIndex: =3
 
-            StarVisible45_1 As label:
+            StarVisible68_1 As label:
                 Align: =Align.Center
                 Color: =RGBA(89, 0, 0, 1)
                 DisabledColor: =RGBA(166, 166, 166, 1)
-                Height: =DataCardKey48_1.Height
+                Height: =DataCardKey71_1.Height
                 Size: =13
                 Text: ="*"
                 Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
                 Width: =30
                 Wrap: =false
-                Y: =DataCardKey48_1.Y
+                Y: =DataCardKey71_1.Y
                 ZIndex: =4
 
         "'Manier van aanmelden_DataCard1_1' As typedDataCard.comboBoxEditCard":
@@ -449,30 +413,30 @@
             DataField: ="Maniervanaanmelden"
             Default: =ThisItem.'Manier van aanmelden'
             DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@Bezoeksverlagen_1],DataSourceInfo.DisplayName,"Maniervanaanmelden")
+            DisplayName: =DataSourceInfo([@Bezoekverslagen],DataSourceInfo.DisplayName,"Maniervanaanmelden")
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
             Required: =false
-            Update: =DataCardValue51_1.Selected
-            Width: =446
+            Update: =DataCardValue73_1.Selected
+            Width: =405
             X: =1
             Y: =1
-            ZIndex: =2
+            ZIndex: =6
 
-            DataCardKey51_1 As label:
+            DataCardKey73_1 As label:
                 AutoHeight: =true
                 Color: =RGBA(89, 0, 0, 1)
                 DisabledColor: =RGBA(166, 166, 166, 1)
                 Height: =34
                 Size: =13
                 Text: =Parent.DisplayName
-                Width: =(Parent.Width - 60) * 0.4
+                Width: =Parent.Width - 60
                 Wrap: =false
                 X: =30
-                Y: =10 + (DataCardValue51_1.Height / 2) - (Self.Height / 2)
+                Y: =10
                 ZIndex: =1
 
-            DataCardValue51_1 As combobox:
+            DataCardValue73_1 As combobox:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                 ChevronBackground: =RGBA(164, 38, 44, 1)
                 ChevronDisabledBackground: =RGBA(166, 166, 166, 1)
@@ -487,23 +451,22 @@
                 DisplayMode: =Parent.DisplayMode
                 HoverColor: =RGBA(0, 0, 0, 1)
                 HoverFill: =RGBA(222, 179, 184, 1)
-                IsSearchable: =false
-                Items: =Choices([@Bezoeksverlagen_1].Maniervanaanmelden)
+                Items: =Choices([@Bezoekverslagen].Maniervanaanmelden)
                 PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
                 PressedColor: =RGBA(255, 255, 255, 1)
                 PressedFill: =RGBA(89, 0, 0, 1)
                 SearchFields: =["Value"]
-                SearchItems: =[]
+                SearchItems: =Choices(Bezoekverslagen.Maniervanaanmelden,DataCardValue73_1.SearchText)
                 SelectionFill: =RGBA(164, 38, 44, 1)
                 SelectMultiple: =false
                 Size: =13
                 Tooltip: =Parent.DisplayName
-                Width: =(Parent.Width - 60) * 0.6
-                X: =DataCardKey51_1.X + DataCardKey51_1.Width
-                Y: =10
+                Width: =Parent.Width - 60
+                X: =30
+                Y: =DataCardKey73_1.Y + DataCardKey73_1.Height + 5
                 ZIndex: =2
 
-            ErrorMessage47_1 As label:
+            ErrorMessage70_1 As label:
                 AutoHeight: =true
                 Color: =RGBA(168, 0, 0, 1)
                 DisabledColor: =RGBA(166, 166, 166, 1)
@@ -518,20 +481,20 @@
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardValue51_1.Y + DataCardValue51_1.Height
+                Y: =DataCardValue73_1.Y + DataCardValue73_1.Height
                 ZIndex: =3
 
-            StarVisible47_1 As label:
+            StarVisible70_1 As label:
                 Align: =Align.Center
                 Color: =RGBA(89, 0, 0, 1)
                 DisabledColor: =RGBA(166, 166, 166, 1)
-                Height: =DataCardKey51_1.Height
+                Height: =DataCardKey73_1.Height
                 Size: =13
                 Text: ="*"
                 Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
                 Width: =30
                 Wrap: =false
-                Y: =DataCardKey51_1.Y
+                Y: =DataCardKey73_1.Y
                 ZIndex: =4
 
         Verslag_DataCard1_1 As typedDataCard.textualEditCard:
@@ -540,29 +503,31 @@
             DataField: ="Verslag"
             Default: =ThisItem.Verslag
             DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@Bezoeksverlagen_1],DataSourceInfo.DisplayName,"Verslag")
+            DisplayName: =DataSourceInfo([@Bezoekverslagen],DataSourceInfo.DisplayName,"Verslag")
             Fill: =RGBA(0, 0, 0, 0)
-            Height: =224
-            MaxLength: =DataSourceInfo([@Bezoeksverlagen_1], DataSourceInfo.MaxLength, "Verslag")
+            Height: =242
+            MaxLength: =DataSourceInfo([@Bezoekverslagen], DataSourceInfo.MaxLength, "Verslag")
             Required: =false
-            Update: =DataCardValue65_1.Text
-            Width: =892
+            Update: =DataCardValue75_1.Text
+            Width: =810
             X: =0
             Y: =2
-            ZIndex: =2
+            ZIndex: =6
 
-            DataCardKey65_1 As label:
+            DataCardKey75_1 As label:
+                AutoHeight: =true
                 Color: =RGBA(89, 0, 0, 1)
                 DisabledColor: =RGBA(166, 166, 166, 1)
-                Height: =47
+                Height: =34
                 Size: =13
                 Text: =Parent.DisplayName
-                Width: =130
+                Width: =Parent.Width - 60
                 Wrap: =false
+                X: =30
                 Y: =10
                 ZIndex: =1
 
-            DataCardValue65_1 As text:
+            DataCardValue75_1 As text:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                 BorderThickness: =2
                 Color: =RGBA(0, 0, 0, 1)
@@ -573,7 +538,7 @@
                 DisabledFill: =RGBA(244, 244, 244, 1)
                 DisplayMode: =Parent.DisplayMode
                 FocusedBorderThickness: =4
-                Height: =192
+                Height: =134
                 HoverBorderColor: =RGBA(89, 0, 0, 1)
                 HoverColor: =RGBA(0, 0, 0, 1)
                 HoverFill: =RGBA(222, 179, 184, 1)
@@ -585,12 +550,12 @@
                 RadiusTopRight: =0
                 Size: =13
                 Tooltip: =Parent.DisplayName
-                Width: =678
-                X: =184
-                Y: =10
+                Width: =Parent.Width - 60
+                X: =30
+                Y: =DataCardKey75_1.Y + DataCardKey75_1.Height + 5
                 ZIndex: =2
 
-            ErrorMessage49_1 As label:
+            ErrorMessage72_1 As label:
                 AutoHeight: =true
                 Color: =RGBA(168, 0, 0, 1)
                 DisabledColor: =RGBA(166, 166, 166, 1)
@@ -605,19 +570,53 @@
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardValue65_1.Y + DataCardValue65_1.Height
+                Y: =DataCardValue75_1.Y + DataCardValue75_1.Height
                 ZIndex: =3
 
-            StarVisible49_1 As label:
+            StarVisible72_1 As label:
                 Align: =Align.Center
                 Color: =RGBA(89, 0, 0, 1)
                 DisabledColor: =RGBA(166, 166, 166, 1)
-                Height: =DataCardKey65_1.Height
+                Height: =DataCardKey75_1.Height
                 Size: =13
                 Text: ="*"
                 Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
                 Width: =30
                 Wrap: =false
-                Y: =DataCardKey65_1.Y
+                Y: =DataCardKey75_1.Y
                 ZIndex: =4
+
+    Button14_2 As button:
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        Fill: =RGBA(164, 38, 44, 1)
+        FontWeight: =FontWeight.Semibold
+        Height: =60
+        HoverColor: =RGBA(255, 255, 255, 1)
+        HoverFill: =ColorFade(RGBA(164, 38, 44, 1), -20%)
+        OnSelect: =Navigate(Startscherm)
+        Size: =15
+        Text: ="Terug naar hoofdmenu"
+        Width: =214
+        X: =94
+        Y: =656
+        ZIndex: =6
+
+    Button14_3 As button:
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        Fill: =RGBA(164, 38, 44, 1)
+        FontWeight: =FontWeight.Semibold
+        Height: =60
+        HoverColor: =RGBA(255, 255, 255, 1)
+        HoverFill: =ColorFade(RGBA(164, 38, 44, 1), -20%)
+        OnSelect: =SubmitForm(FormWijzigenVerslag); Navigate(OverzichtBezoekverslagen)
+        Size: =15
+        Text: ="Opslaan"
+        Width: =214
+        X: =1066
+        Y: =656
+        ZIndex: =7
 
