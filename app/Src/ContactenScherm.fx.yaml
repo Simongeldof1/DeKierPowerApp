@@ -82,9 +82,9 @@ ContactenScherm As screen:
         Size: =13
         Text: |-
             =//Text(LookUp(Gasten; 'Id (ID)'=FormPersoonGegevens.LastSubmit.'Id (ID)'; 'Id (ID)'))
-            Text(LookUp(Gasten, ID = FormPersoonGegevens.LastSubmit.ID, ID))
-        X: =95
-        Y: =180
+            Text(LookUp(Gasten, ID = FormPersoonGegevens.LastSubmit.ID, 'Volledige Naam'))
+        X: =126
+        Y: =190
         ZIndex: =8
 
     ContactenForm As form:

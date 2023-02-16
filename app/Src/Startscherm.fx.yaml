@@ -11,7 +11,7 @@ Startscherm As screen:
         Height: =112
         HoverColor: =RGBA(255, 255, 255, 1)
         HoverFill: =ColorFade(RGBA(164, 38, 44, 1), -20%)
-        OnSelect: =Navigate(PersoonGegevens,Fade)
+        OnSelect: =Navigate(PersoonGegevens,Fade);NewForm(FormPersoonGegevens)
         Size: =25
         Text: ="Nieuwe intake invoeren "
         Width: =419
