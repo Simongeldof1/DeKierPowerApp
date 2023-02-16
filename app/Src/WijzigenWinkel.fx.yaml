@@ -8,7 +8,7 @@ WijzigenWinkel As screen:
         DataSource: =Winkels_1
         DefaultMode: =FormMode.New
         Height: =493
-        Item: =glbRecord1
+        Item: =glbRecord1;
         NumberOfColumns: =1
         Width: =780
         X: =41

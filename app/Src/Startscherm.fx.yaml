@@ -121,6 +121,7 @@ Startscherm As screen:
         Height: =87
         HoverColor: =RGBA(255, 255, 255, 1)
         HoverFill: =ColorFade(RGBA(164, 38, 44, 1), -20%)
+        OnSelect: =Navigate(OverzichtGasten)
         Size: =15
         Text: ="Overzicht gasten"
         Width: =245
@@ -141,18 +142,6 @@ Startscherm As screen:
         Y: =42
         ZIndex: =9
 
-    DatumVandaag As label:
-        BorderColor: =RGBA(89, 0, 0, 1)
-        Color: =RGBA(251, 251, 251, 1)
-        DisabledColor: =RGBA(166, 166, 166, 1)
-        Height: =43
-        Size: =20
-        Text: =Text(Today(),"dd/mm/yyyy")
-        Width: =167
-        X: =1166
-        Y: =51
-        ZIndex: =10
-
     Image4 As image:
         BorderColor: =RGBA(89, 0, 0, 1)
         DisabledBorderColor: =RGBA(166, 166, 166, 1)
@@ -162,4 +151,29 @@ Startscherm As screen:
         Width: =194
         Y: =18
         ZIndex: =11
+
+    DatumVandaag_11 As label:
+        Align: =Align.Right
+        BorderColor: =RGBA(89, 0, 0, 1)
+        Color: =RGBA(251, 251, 251, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        Height: =43
+        Size: =20
+        Text: =Text(Today(),"dd/mm/yyyy")
+        Width: =167
+        X: =1166
+        Y: =51
+        ZIndex: =12
+
+    Label2_2 As label:
+        Align: =Align.Right
+        BorderColor: =RGBA(89, 0, 0, 1)
+        Color: =RGBA(251, 251, 251, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        Size: =15
+        Text: =User().FullName
+        Width: =172
+        X: =1166
+        Y: =86
+        ZIndex: =13
 

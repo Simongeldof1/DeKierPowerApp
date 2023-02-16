@@ -1546,6 +1546,7 @@ PersoonGegevens As screen:
         Fill: =RGBA(164, 38, 44, 1)
         Height: =146
         Width: =1366
+        Y: =3
         ZIndex: =5
 
     Hoofdmenu_1 As label:
@@ -1564,6 +1565,7 @@ PersoonGegevens As screen:
         ZIndex: =6
 
     DatumVandaag_1 As label:
+        Align: =Align.Right
         BorderColor: =RGBA(89, 0, 0, 1)
         Color: =RGBA(251, 251, 251, 1)
         DisabledColor: =RGBA(166, 166, 166, 1)
@@ -1584,4 +1586,16 @@ PersoonGegevens As screen:
         Width: =194
         Y: =18
         ZIndex: =8
+
+    Label2_1 As label:
+        Align: =Align.Right
+        BorderColor: =RGBA(89, 0, 0, 1)
+        Color: =RGBA(251, 251, 251, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        Size: =15
+        Text: =User().FullName
+        Width: =172
+        X: =1166
+        Y: =86
+        ZIndex: =9
 

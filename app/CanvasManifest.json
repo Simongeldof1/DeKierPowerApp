@@ -126,6 +126,8 @@
     "OverzichtWinkels",
     "ToevoegenKierbezoek",
     "ToevoegenWinkel",
-    "WijzigenWinkel"
+    "WijzigenWinkel",
+    "OverzichtGasten",
+    "OverzichtPersoonGegevens"
   ]
 }

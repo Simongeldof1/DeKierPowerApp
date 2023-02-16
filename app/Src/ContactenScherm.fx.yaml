@@ -129,18 +129,6 @@ ContactenScherm As screen:
         Y: =42
         ZIndex: =5
 
-    DatumVandaag_3 As label:
-        BorderColor: =RGBA(89, 0, 0, 1)
-        Color: =RGBA(251, 251, 251, 1)
-        DisabledColor: =RGBA(166, 166, 166, 1)
-        Height: =43
-        Size: =20
-        Text: =Text(Today(),"dd/mm/yyyy")
-        Width: =167
-        X: =1166
-        Y: =51
-        ZIndex: =6
-
     Image4_3 As image:
         BorderColor: =RGBA(89, 0, 0, 1)
         DisabledBorderColor: =RGBA(166, 166, 166, 1)
@@ -913,4 +901,29 @@ ContactenScherm As screen:
         X: =563
         Y: =567
         ZIndex: =12
+
+    DatumVandaag_3 As label:
+        Align: =Align.Right
+        BorderColor: =RGBA(89, 0, 0, 1)
+        Color: =RGBA(251, 251, 251, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        Height: =43
+        Size: =20
+        Text: =Text(Today(),"dd/mm/yyyy")
+        Width: =167
+        X: =1166
+        Y: =51
+        ZIndex: =13
+
+    Label2_4 As label:
+        Align: =Align.Right
+        BorderColor: =RGBA(89, 0, 0, 1)
+        Color: =RGBA(251, 251, 251, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        Size: =15
+        Text: =User().FullName
+        Width: =172
+        X: =1166
+        Y: =86
+        ZIndex: =14
 
