@@ -136,6 +136,8 @@ Financien As screen:
                 ChevronHoverFill: =RGBA(255, 255, 255, 1)
                 Default: |+
                     =//LookUp(Gasten; 'Id (ID)' = FormPersoonGegevens.LastSubmit.'Id (ID)')
+                    Last(SortByColumns(Choices([@Financiën].Gast), "Created", Descending))
+                    
                     
                 DefaultSelectedItems: =
                 DisabledBorderColor: =RGBA(166, 166, 166, 1)
@@ -148,7 +150,7 @@ Financien As screen:
                 IsSearchable: =false
                 Items: |
                     =//Filter(Gasten; 'Volledige Naam' = FormPersoonGegevens.LastSubmit.'Volledige Naam')
-                    First(Choices([@Financiën].Gast))
+                    Choices([@Financiën].Gast)
                 PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
                 PressedColor: =RGBA(255, 255, 255, 1)
                 PressedFill: =RGBA(89, 0, 0, 1)
