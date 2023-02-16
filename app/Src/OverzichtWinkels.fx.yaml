@@ -9,6 +9,99 @@
         Width: =Parent.Width
         ZIndex: =1
 
+    "Gallery5 As gallery.'BrowseLayout_Vertical_ThreeTextVariant_ver4.0'":
+        BorderColor: =RGBA(89, 0, 0, 1)
+        Height: =499
+        Items: =Winkels_1
+        Layout: =Layout.Vertical
+        TemplatePadding: =0
+        TemplateSize: =Min(168, Self.Height - 60)
+        Width: =1312
+        X: =40
+        Y: =98
+        ZIndex: =1
+
+        Title5 As label:
+            Color: =RGBA(0, 0, 0, 1)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            FontWeight: =FontWeight.Semibold
+            Height: =Self.Size * 1.8
+            OnSelect: =Select(Parent)
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Size: =20
+            Text: =ThisItem.Title
+            VerticalAlign: =VerticalAlign.Top
+            Width: =Parent.TemplateWidth - 104
+            X: =32
+            Y: =16
+            ZIndex: =1
+
+        Subtitle4 As label:
+            Color: =RGBA(0, 0, 0, 1)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            Height: =Self.Size * 1.8
+            OnSelect: =Select(Parent)
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Size: =18
+            Text: =ThisItem.Adres
+            VerticalAlign: =VerticalAlign.Top
+            Width: =Parent.TemplateWidth - 104
+            X: =32
+            Y: =Title5.Y + Title5.Height + 2
+            ZIndex: =2
+
+        Body1 As label:
+            Color: =RGBA(0, 0, 0, 1)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            Height: =Self.Size * 4
+            OnSelect: =Select(Parent)
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Size: =16
+            Text: =ThisItem.Gemeente
+            VerticalAlign: =VerticalAlign.Top
+            Width: =Parent.TemplateWidth - 104
+            X: =32
+            Y: =Subtitle4.Y + Subtitle4.Height + 4
+            ZIndex: =3
+
+        NextArrow4 As icon.ChevronRight:
+            AccessibleLabel: =Self.Tooltip
+            BorderColor: =RGBA(89, 0, 0, 1)
+            Color: =RGBA(89, 0, 0, 1)
+            DisabledBorderColor: =RGBA(166, 166, 166, 1)
+            DisabledColor: =RGBA(244, 244, 244, 1)
+            Height: =60
+            Icon: =Icon.ChevronRight
+            OnSelect: =Set(varMode,"Edit"); Select(Parent) ;Navigate(WijzigenWinkel,Cover); Set(glbRecord1, ThisItem)
+            PaddingBottom: =10
+            PaddingLeft: =10
+            PaddingRight: =10
+            PaddingTop: =10
+            TabIndex: =0
+            Tooltip: ="Details van item weergeven"
+            Width: =60
+            X: =Parent.TemplateWidth - Self.Width - 5
+            Y: =(Parent.TemplateHeight / 2) - (Self.Height / 2)
+            ZIndex: =4
+
+        Separator4 As rectangle:
+            BorderColor: =RGBA(89, 0, 0, 1)
+            Fill: =RGBA(89, 0, 0, 1)
+            Height: =1
+            OnSelect: =Select(Parent)
+            Width: =Parent.TemplateWidth
+            Y: =Parent.TemplateHeight - 1
+            ZIndex: =5
+
     Title1 As label:
         Align: =Align.Center
         Color: =RGBA(255, 255, 255, 1)
@@ -54,91 +147,4 @@
         X: =72
         Y: =624
         ZIndex: =5
-
-    "Gallery5 As gallery.'BrowseLayout_Vertical_TwoTextOneImageVariant_ver4.0'":
-        BorderColor: =RGBA(89, 0, 0, 1)
-        Height: =499
-        Items: =Winkels_1
-        Layout: =Layout.Vertical
-        TemplatePadding: =0
-        TemplateSize: =Min(160, Self.Height - 60)
-        Width: =1312
-        X: =40
-        Y: =98
-        ZIndex: =6
-
-        Image8 As image:
-            BorderColor: =RGBA(89, 0, 0, 1)
-            DisabledBorderColor: =RGBA(166, 166, 166, 1)
-            DisabledFill: =RGBA(244, 244, 244, 1)
-            Height: =128
-            OnSelect: =Select(Parent)
-            Width: =128
-            X: =16
-            Y: =(Parent.TemplateHeight / 2) - (Self.Height / 2)
-            ZIndex: =1
-
-        Title7 As label:
-            Color: =RGBA(0, 0, 0, 1)
-            DisabledColor: =RGBA(166, 166, 166, 1)
-            FontWeight: =FontWeight.Semibold
-            Height: =Self.Size * 1.8
-            OnSelect: =Select(Parent)
-            PaddingBottom: =0
-            PaddingLeft: =0
-            PaddingRight: =0
-            PaddingTop: =0
-            Size: =20
-            Text: =ThisItem.Title
-            VerticalAlign: =VerticalAlign.Top
-            Width: =Parent.TemplateWidth - Image8.Width - 104
-            X: =Image8.X + Image8.Width + 24
-            Y: =44
-            ZIndex: =2
-
-        Subtitle5 As label:
-            Color: =RGBA(0, 0, 0, 1)
-            DisabledColor: =RGBA(166, 166, 166, 1)
-            Height: =Self.Size * 1.8
-            OnSelect: =Select(Parent)
-            PaddingBottom: =0
-            PaddingLeft: =0
-            PaddingRight: =0
-            PaddingTop: =0
-            Size: =18
-            Text: =ThisItem.Adres
-            VerticalAlign: =VerticalAlign.Top
-            Width: =Title7.Width
-            X: =Title7.X
-            Y: =Title7.Y + Title7.Height + 4
-            ZIndex: =3
-
-        NextArrow4 As icon.ChevronRight:
-            AccessibleLabel: =Self.Tooltip
-            BorderColor: =RGBA(89, 0, 0, 1)
-            Color: =RGBA(89, 0, 0, 1)
-            DisabledBorderColor: =RGBA(166, 166, 166, 1)
-            DisabledColor: =RGBA(244, 244, 244, 1)
-            Height: =60
-            Icon: =Icon.ChevronRight
-            OnSelect: =Set(varMode,"Edit"); Select(Parent) ;Navigate(WijzigenWinkel,Cover); Set(glbRecord1, ThisItem)
-            PaddingBottom: =10
-            PaddingLeft: =10
-            PaddingRight: =10
-            PaddingTop: =10
-            TabIndex: =0
-            Tooltip: ="View item details"
-            Width: =60
-            X: =Parent.TemplateWidth - Self.Width - 5
-            Y: =(Parent.TemplateHeight / 2) - (Self.Height / 2)
-            ZIndex: =4
-
-        Separator4 As rectangle:
-            BorderColor: =RGBA(89, 0, 0, 1)
-            Fill: =RGBA(89, 0, 0, 1)
-            Height: =1
-            OnSelect: =Select(Parent)
-            Width: =Parent.TemplateWidth
-            Y: =Parent.TemplateHeight - 1
-            ZIndex: =5
 
