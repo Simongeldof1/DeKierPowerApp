@@ -14,83 +14,6 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "ToevoegenKierbezoek.Form2.Bezoeker_DataCard2.Update"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ToevoegenKierbezoek.Form2.Bezoeker_DataCard2.Update",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 15,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "DataCardValue49"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Update",
-                "module": "ToevoegenKierbezoek",
-                "type": "ToevoegenKierbezoek.Form2.Bezoeker_DataCard2"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "DataCardValue49"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ToevoegenKierbezoek.Form2.Bezoeker_DataCard2.Update"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ToevoegenKierbezoek.Form2.Bezoeker_DataCard2.Update",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 9,
-                  "charOffset": 15,
-                  "snippet": {
-                    "text": ".Selected"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Update",
-                "module": "ToevoegenKierbezoek",
-                "type": "ToevoegenKierbezoek.Form2.Bezoeker_DataCard2"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
                   "fullyQualifiedName": "ToevoegenBezoekverslag.FormBezoekverslag.Item"
                 }
               ],
@@ -164,7 +87,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 2
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -241,7 +164,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 1
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -318,7 +241,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 1
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -395,7 +318,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 1
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -472,7 +395,84 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 1
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ToevoegenKierbezoek.Form2.Bezoeker_DataCard2.Update"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ToevoegenKierbezoek.Form2.Bezoeker_DataCard2.Update",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 15,
+                  "charOffset": 0,
+                  "snippet": {
+                    "text": "DataCardValue49"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Update",
+                "module": "ToevoegenKierbezoek",
+                "type": "ToevoegenKierbezoek.Form2.Bezoeker_DataCard2"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "DataCardValue49"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ToevoegenKierbezoek.Form2.Bezoeker_DataCard2.Update"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ToevoegenKierbezoek.Form2.Bezoeker_DataCard2.Update",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 9,
+                  "charOffset": 15,
+                  "snippet": {
+                    "text": ".Selected"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Update",
+                "module": "ToevoegenKierbezoek",
+                "type": "ToevoegenKierbezoek.Form2.Bezoeker_DataCard2"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidDot",
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -553,906 +553,6 @@
           },
           "ruleId": "app-SuggestRemoteExecutionHint",
           "ruleIndex": 4
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Wijzigen bezoekverslag'.FormBezoekverslag_1.'Naam bezoeker_DataCard2_1'.DataCardValue64_1.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Wijzigen bezoekverslag'.FormBezoekverslag_1.'Naam bezoeker_DataCard2_1'.DataCardValue64_1.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Wijzigen bezoekverslag",
-                "type": "'Wijzigen bezoekverslag'.FormBezoekverslag_1.'Naam bezoeker_DataCard2_1'.DataCardValue64_1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 5
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Wijzigen bezoekverslag'.FormBezoekverslag_1.'Datum bezoek_DataCard1_1'.DataCardValue47_1.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Wijzigen bezoekverslag'.FormBezoekverslag_1.'Datum bezoek_DataCard1_1'.DataCardValue47_1.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Wijzigen bezoekverslag",
-                "type": "'Wijzigen bezoekverslag'.FormBezoekverslag_1.'Datum bezoek_DataCard1_1'.DataCardValue47_1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 5
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Wijzigen bezoekverslag'.FormBezoekverslag_1.'Voor stuurgroep_DataCard1_1'.DataCardValue49_1.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Wijzigen bezoekverslag'.FormBezoekverslag_1.'Voor stuurgroep_DataCard1_1'.DataCardValue49_1.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Wijzigen bezoekverslag",
-                "type": "'Wijzigen bezoekverslag'.FormBezoekverslag_1.'Voor stuurgroep_DataCard1_1'.DataCardValue49_1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 5
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Wijzigen bezoekverslag'.FormBezoekverslag_1.Permanentienaam_DataCard1_1.DataCardValue48_1.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Wijzigen bezoekverslag'.FormBezoekverslag_1.Permanentienaam_DataCard1_1.DataCardValue48_1.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Wijzigen bezoekverslag",
-                "type": "'Wijzigen bezoekverslag'.FormBezoekverslag_1.Permanentienaam_DataCard1_1.DataCardValue48_1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 5
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Wijzigen bezoekverslag'.FormBezoekverslag_1.'Manier van aanmelden_DataCard1_1'.DataCardValue51_1.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Wijzigen bezoekverslag'.FormBezoekverslag_1.'Manier van aanmelden_DataCard1_1'.DataCardValue51_1.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Wijzigen bezoekverslag",
-                "type": "'Wijzigen bezoekverslag'.FormBezoekverslag_1.'Manier van aanmelden_DataCard1_1'.DataCardValue51_1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 5
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Wijzigen bezoekverslag'.FormBezoekverslag_1.Verslag_DataCard1_1.DataCardValue65_1.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Wijzigen bezoekverslag'.FormBezoekverslag_1.Verslag_DataCard1_1.DataCardValue65_1.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Wijzigen bezoekverslag",
-                "type": "'Wijzigen bezoekverslag'.FormBezoekverslag_1.Verslag_DataCard1_1.DataCardValue65_1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 5
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ToevoegenWinkel.FormToevoegenWinkel.Title_DataCard4.DataCardValue93.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ToevoegenWinkel.FormToevoegenWinkel.Title_DataCard4.DataCardValue93.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "ToevoegenWinkel",
-                "type": "ToevoegenWinkel.FormToevoegenWinkel.Title_DataCard4.DataCardValue93"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 5
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ToevoegenWinkel.FormToevoegenWinkel.Adres_DataCard5.DataCardValue94.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ToevoegenWinkel.FormToevoegenWinkel.Adres_DataCard5.DataCardValue94.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "ToevoegenWinkel",
-                "type": "ToevoegenWinkel.FormToevoegenWinkel.Adres_DataCard5.DataCardValue94"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 5
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ToevoegenWinkel.FormToevoegenWinkel.Postcode_DataCard5.DataCardValue96.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ToevoegenWinkel.FormToevoegenWinkel.Postcode_DataCard5.DataCardValue96.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "ToevoegenWinkel",
-                "type": "ToevoegenWinkel.FormToevoegenWinkel.Postcode_DataCard5.DataCardValue96"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 5
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ToevoegenWinkel.FormToevoegenWinkel.Gemeente_DataCard5.DataCardValue98.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ToevoegenWinkel.FormToevoegenWinkel.Gemeente_DataCard5.DataCardValue98.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "ToevoegenWinkel",
-                "type": "ToevoegenWinkel.FormToevoegenWinkel.Gemeente_DataCard5.DataCardValue98"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 5
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ToevoegenWinkel.FormToevoegenWinkel.Telefoon_DataCard4.DataCardValue95.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ToevoegenWinkel.FormToevoegenWinkel.Telefoon_DataCard4.DataCardValue95.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "ToevoegenWinkel",
-                "type": "ToevoegenWinkel.FormToevoegenWinkel.Telefoon_DataCard4.DataCardValue95"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 5
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ToevoegenWinkel.FormToevoegenWinkel.'Verantwoordelijke winkel_DataCard4'.DataCardValue97.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ToevoegenWinkel.FormToevoegenWinkel.'Verantwoordelijke winkel_DataCard4'.DataCardValue97.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "ToevoegenWinkel",
-                "type": "ToevoegenWinkel.FormToevoegenWinkel.'Verantwoordelijke winkel_DataCard4'.DataCardValue97"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 5
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ToevoegenWinkel.FormToevoegenWinkel.Winkelregel_DataCard4.DataCardValue99.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ToevoegenWinkel.FormToevoegenWinkel.Winkelregel_DataCard4.DataCardValue99.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "ToevoegenWinkel",
-                "type": "ToevoegenWinkel.FormToevoegenWinkel.Winkelregel_DataCard4.DataCardValue99"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 5
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ToevoegenWinkel.FormToevoegenWinkel.'Nodige Informatie_DataCard4'.DataCardValue100.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ToevoegenWinkel.FormToevoegenWinkel.'Nodige Informatie_DataCard4'.DataCardValue100.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "ToevoegenWinkel",
-                "type": "ToevoegenWinkel.FormToevoegenWinkel.'Nodige Informatie_DataCard4'.DataCardValue100"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 5
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ToevoegenWinkel.FormToevoegenWinkel.Opmerkingen_DataCard4.DataCardValue101.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ToevoegenWinkel.FormToevoegenWinkel.Opmerkingen_DataCard4.DataCardValue101.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "ToevoegenWinkel",
-                "type": "ToevoegenWinkel.FormToevoegenWinkel.Opmerkingen_DataCard4.DataCardValue101"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 5
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ToevoegenWinkel.FormToevoegenWinkel.Afspraken_DataCard4.DataCardValue102.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ToevoegenWinkel.FormToevoegenWinkel.Afspraken_DataCard4.DataCardValue102.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "ToevoegenWinkel",
-                "type": "ToevoegenWinkel.FormToevoegenWinkel.Afspraken_DataCard4.DataCardValue102"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 5
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ToevoegenWinkel.FormOpeningsUren.MaandagOpen_DataCard1.DataCardValue50.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ToevoegenWinkel.FormOpeningsUren.MaandagOpen_DataCard1.DataCardValue50.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "ToevoegenWinkel",
-                "type": "ToevoegenWinkel.FormOpeningsUren.MaandagOpen_DataCard1.DataCardValue50"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 5
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ToevoegenWinkel.FormOpeningsUren.MaandagSluiting_DataCard1.DataCardValue19.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ToevoegenWinkel.FormOpeningsUren.MaandagSluiting_DataCard1.DataCardValue19.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "ToevoegenWinkel",
-                "type": "ToevoegenWinkel.FormOpeningsUren.MaandagSluiting_DataCard1.DataCardValue19"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 5
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ToevoegenWinkel.FormOpeningsUren.DinsdagOpen_DataCard1.DataCardValue52.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ToevoegenWinkel.FormOpeningsUren.DinsdagOpen_DataCard1.DataCardValue52.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "ToevoegenWinkel",
-                "type": "ToevoegenWinkel.FormOpeningsUren.DinsdagOpen_DataCard1.DataCardValue52"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 5
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ToevoegenWinkel.FormOpeningsUren.DinsdagSluiting_DataCard1.DataCardValue53.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ToevoegenWinkel.FormOpeningsUren.DinsdagSluiting_DataCard1.DataCardValue53.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "ToevoegenWinkel",
-                "type": "ToevoegenWinkel.FormOpeningsUren.DinsdagSluiting_DataCard1.DataCardValue53"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 5
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ToevoegenWinkel.FormOpeningsUren.WoensdagOpen_DataCard1.DataCardValue54.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ToevoegenWinkel.FormOpeningsUren.WoensdagOpen_DataCard1.DataCardValue54.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "ToevoegenWinkel",
-                "type": "ToevoegenWinkel.FormOpeningsUren.WoensdagOpen_DataCard1.DataCardValue54"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 5
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ToevoegenWinkel.FormOpeningsUren.WoensdagSluiting_DataCard1.DataCardValue55.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ToevoegenWinkel.FormOpeningsUren.WoensdagSluiting_DataCard1.DataCardValue55.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "ToevoegenWinkel",
-                "type": "ToevoegenWinkel.FormOpeningsUren.WoensdagSluiting_DataCard1.DataCardValue55"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 5
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ToevoegenWinkel.FormOpeningsUren.DonderdagOpen_DataCard1.DataCardValue56.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ToevoegenWinkel.FormOpeningsUren.DonderdagOpen_DataCard1.DataCardValue56.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "ToevoegenWinkel",
-                "type": "ToevoegenWinkel.FormOpeningsUren.DonderdagOpen_DataCard1.DataCardValue56"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 5
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ToevoegenWinkel.FormOpeningsUren.DonderdagSluiting_DataCard1.DataCardValue57.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ToevoegenWinkel.FormOpeningsUren.DonderdagSluiting_DataCard1.DataCardValue57.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "ToevoegenWinkel",
-                "type": "ToevoegenWinkel.FormOpeningsUren.DonderdagSluiting_DataCard1.DataCardValue57"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 5
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ToevoegenWinkel.FormOpeningsUren.VrijdagOpen_DataCard1.DataCardValue58.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ToevoegenWinkel.FormOpeningsUren.VrijdagOpen_DataCard1.DataCardValue58.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "ToevoegenWinkel",
-                "type": "ToevoegenWinkel.FormOpeningsUren.VrijdagOpen_DataCard1.DataCardValue58"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 5
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ToevoegenWinkel.FormOpeningsUren.VrijdagSluiting_DataCard1.DataCardValue59.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ToevoegenWinkel.FormOpeningsUren.VrijdagSluiting_DataCard1.DataCardValue59.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "ToevoegenWinkel",
-                "type": "ToevoegenWinkel.FormOpeningsUren.VrijdagSluiting_DataCard1.DataCardValue59"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 5
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ToevoegenWinkel.FormOpeningsUren.ZaterdagOpen_DataCard1.DataCardValue60.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ToevoegenWinkel.FormOpeningsUren.ZaterdagOpen_DataCard1.DataCardValue60.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "ToevoegenWinkel",
-                "type": "ToevoegenWinkel.FormOpeningsUren.ZaterdagOpen_DataCard1.DataCardValue60"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 5
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ToevoegenWinkel.FormOpeningsUren.ZaterdagSluiting_DataCard1.DataCardValue61.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ToevoegenWinkel.FormOpeningsUren.ZaterdagSluiting_DataCard1.DataCardValue61.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "ToevoegenWinkel",
-                "type": "ToevoegenWinkel.FormOpeningsUren.ZaterdagSluiting_DataCard1.DataCardValue61"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 5
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ToevoegenWinkel.FormOpeningsUren.ZondagOpen_DataCard1.DataCardValue62.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ToevoegenWinkel.FormOpeningsUren.ZondagOpen_DataCard1.DataCardValue62.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "ToevoegenWinkel",
-                "type": "ToevoegenWinkel.FormOpeningsUren.ZondagOpen_DataCard1.DataCardValue62"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 5
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ToevoegenWinkel.FormOpeningsUren.ZondagSluiting_DataCard1.DataCardValue63.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ToevoegenWinkel.FormOpeningsUren.ZondagSluiting_DataCard1.DataCardValue63.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "ToevoegenWinkel",
-                "type": "ToevoegenWinkel.FormOpeningsUren.ZondagSluiting_DataCard1.DataCardValue63"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 5
         },
         {
           "locations": [
@@ -3379,6 +2479,726 @@
             {
               "logicalLocations": [
                 {
+                  "fullyQualifiedName": "ToevoegenWinkel.FormToevoegenWinkel.Title_DataCard4.DataCardValue93.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ToevoegenWinkel.FormToevoegenWinkel.Title_DataCard4.DataCardValue93.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "ToevoegenWinkel",
+                "type": "ToevoegenWinkel.FormToevoegenWinkel.Title_DataCard4.DataCardValue93"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ToevoegenWinkel.FormToevoegenWinkel.Adres_DataCard5.DataCardValue94.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ToevoegenWinkel.FormToevoegenWinkel.Adres_DataCard5.DataCardValue94.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "ToevoegenWinkel",
+                "type": "ToevoegenWinkel.FormToevoegenWinkel.Adres_DataCard5.DataCardValue94"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ToevoegenWinkel.FormToevoegenWinkel.Postcode_DataCard5.DataCardValue96.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ToevoegenWinkel.FormToevoegenWinkel.Postcode_DataCard5.DataCardValue96.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "ToevoegenWinkel",
+                "type": "ToevoegenWinkel.FormToevoegenWinkel.Postcode_DataCard5.DataCardValue96"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ToevoegenWinkel.FormToevoegenWinkel.Gemeente_DataCard5.DataCardValue98.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ToevoegenWinkel.FormToevoegenWinkel.Gemeente_DataCard5.DataCardValue98.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "ToevoegenWinkel",
+                "type": "ToevoegenWinkel.FormToevoegenWinkel.Gemeente_DataCard5.DataCardValue98"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ToevoegenWinkel.FormToevoegenWinkel.Telefoon_DataCard4.DataCardValue95.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ToevoegenWinkel.FormToevoegenWinkel.Telefoon_DataCard4.DataCardValue95.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "ToevoegenWinkel",
+                "type": "ToevoegenWinkel.FormToevoegenWinkel.Telefoon_DataCard4.DataCardValue95"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ToevoegenWinkel.FormToevoegenWinkel.'Verantwoordelijke winkel_DataCard4'.DataCardValue97.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ToevoegenWinkel.FormToevoegenWinkel.'Verantwoordelijke winkel_DataCard4'.DataCardValue97.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "ToevoegenWinkel",
+                "type": "ToevoegenWinkel.FormToevoegenWinkel.'Verantwoordelijke winkel_DataCard4'.DataCardValue97"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ToevoegenWinkel.FormToevoegenWinkel.Winkelregel_DataCard4.DataCardValue99.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ToevoegenWinkel.FormToevoegenWinkel.Winkelregel_DataCard4.DataCardValue99.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "ToevoegenWinkel",
+                "type": "ToevoegenWinkel.FormToevoegenWinkel.Winkelregel_DataCard4.DataCardValue99"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ToevoegenWinkel.FormToevoegenWinkel.'Nodige Informatie_DataCard4'.DataCardValue100.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ToevoegenWinkel.FormToevoegenWinkel.'Nodige Informatie_DataCard4'.DataCardValue100.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "ToevoegenWinkel",
+                "type": "ToevoegenWinkel.FormToevoegenWinkel.'Nodige Informatie_DataCard4'.DataCardValue100"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ToevoegenWinkel.FormToevoegenWinkel.Opmerkingen_DataCard4.DataCardValue101.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ToevoegenWinkel.FormToevoegenWinkel.Opmerkingen_DataCard4.DataCardValue101.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "ToevoegenWinkel",
+                "type": "ToevoegenWinkel.FormToevoegenWinkel.Opmerkingen_DataCard4.DataCardValue101"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ToevoegenWinkel.FormToevoegenWinkel.Afspraken_DataCard4.DataCardValue102.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ToevoegenWinkel.FormToevoegenWinkel.Afspraken_DataCard4.DataCardValue102.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "ToevoegenWinkel",
+                "type": "ToevoegenWinkel.FormToevoegenWinkel.Afspraken_DataCard4.DataCardValue102"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ToevoegenWinkel.FormOpeningsUren.MaandagOpen_DataCard1.DataCardValue50.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ToevoegenWinkel.FormOpeningsUren.MaandagOpen_DataCard1.DataCardValue50.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "ToevoegenWinkel",
+                "type": "ToevoegenWinkel.FormOpeningsUren.MaandagOpen_DataCard1.DataCardValue50"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ToevoegenWinkel.FormOpeningsUren.MaandagSluiting_DataCard1.DataCardValue19.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ToevoegenWinkel.FormOpeningsUren.MaandagSluiting_DataCard1.DataCardValue19.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "ToevoegenWinkel",
+                "type": "ToevoegenWinkel.FormOpeningsUren.MaandagSluiting_DataCard1.DataCardValue19"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ToevoegenWinkel.FormOpeningsUren.DinsdagOpen_DataCard1.DataCardValue52.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ToevoegenWinkel.FormOpeningsUren.DinsdagOpen_DataCard1.DataCardValue52.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "ToevoegenWinkel",
+                "type": "ToevoegenWinkel.FormOpeningsUren.DinsdagOpen_DataCard1.DataCardValue52"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ToevoegenWinkel.FormOpeningsUren.DinsdagSluiting_DataCard1.DataCardValue53.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ToevoegenWinkel.FormOpeningsUren.DinsdagSluiting_DataCard1.DataCardValue53.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "ToevoegenWinkel",
+                "type": "ToevoegenWinkel.FormOpeningsUren.DinsdagSluiting_DataCard1.DataCardValue53"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ToevoegenWinkel.FormOpeningsUren.WoensdagOpen_DataCard1.DataCardValue54.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ToevoegenWinkel.FormOpeningsUren.WoensdagOpen_DataCard1.DataCardValue54.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "ToevoegenWinkel",
+                "type": "ToevoegenWinkel.FormOpeningsUren.WoensdagOpen_DataCard1.DataCardValue54"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ToevoegenWinkel.FormOpeningsUren.WoensdagSluiting_DataCard1.DataCardValue55.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ToevoegenWinkel.FormOpeningsUren.WoensdagSluiting_DataCard1.DataCardValue55.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "ToevoegenWinkel",
+                "type": "ToevoegenWinkel.FormOpeningsUren.WoensdagSluiting_DataCard1.DataCardValue55"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ToevoegenWinkel.FormOpeningsUren.DonderdagOpen_DataCard1.DataCardValue56.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ToevoegenWinkel.FormOpeningsUren.DonderdagOpen_DataCard1.DataCardValue56.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "ToevoegenWinkel",
+                "type": "ToevoegenWinkel.FormOpeningsUren.DonderdagOpen_DataCard1.DataCardValue56"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ToevoegenWinkel.FormOpeningsUren.DonderdagSluiting_DataCard1.DataCardValue57.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ToevoegenWinkel.FormOpeningsUren.DonderdagSluiting_DataCard1.DataCardValue57.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "ToevoegenWinkel",
+                "type": "ToevoegenWinkel.FormOpeningsUren.DonderdagSluiting_DataCard1.DataCardValue57"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ToevoegenWinkel.FormOpeningsUren.VrijdagOpen_DataCard1.DataCardValue58.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ToevoegenWinkel.FormOpeningsUren.VrijdagOpen_DataCard1.DataCardValue58.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "ToevoegenWinkel",
+                "type": "ToevoegenWinkel.FormOpeningsUren.VrijdagOpen_DataCard1.DataCardValue58"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ToevoegenWinkel.FormOpeningsUren.VrijdagSluiting_DataCard1.DataCardValue59.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ToevoegenWinkel.FormOpeningsUren.VrijdagSluiting_DataCard1.DataCardValue59.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "ToevoegenWinkel",
+                "type": "ToevoegenWinkel.FormOpeningsUren.VrijdagSluiting_DataCard1.DataCardValue59"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ToevoegenWinkel.FormOpeningsUren.ZaterdagOpen_DataCard1.DataCardValue60.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ToevoegenWinkel.FormOpeningsUren.ZaterdagOpen_DataCard1.DataCardValue60.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "ToevoegenWinkel",
+                "type": "ToevoegenWinkel.FormOpeningsUren.ZaterdagOpen_DataCard1.DataCardValue60"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ToevoegenWinkel.FormOpeningsUren.ZaterdagSluiting_DataCard1.DataCardValue61.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ToevoegenWinkel.FormOpeningsUren.ZaterdagSluiting_DataCard1.DataCardValue61.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "ToevoegenWinkel",
+                "type": "ToevoegenWinkel.FormOpeningsUren.ZaterdagSluiting_DataCard1.DataCardValue61"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ToevoegenWinkel.FormOpeningsUren.ZondagOpen_DataCard1.DataCardValue62.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ToevoegenWinkel.FormOpeningsUren.ZondagOpen_DataCard1.DataCardValue62.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "ToevoegenWinkel",
+                "type": "ToevoegenWinkel.FormOpeningsUren.ZondagOpen_DataCard1.DataCardValue62"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ToevoegenWinkel.FormOpeningsUren.ZondagSluiting_DataCard1.DataCardValue63.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ToevoegenWinkel.FormOpeningsUren.ZondagSluiting_DataCard1.DataCardValue63.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "ToevoegenWinkel",
+                "type": "ToevoegenWinkel.FormOpeningsUren.ZondagSluiting_DataCard1.DataCardValue63"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
                   "fullyQualifiedName": "Kierbezoeken.Gallery1.AccessibleLabel"
                 }
               ],
@@ -3559,6 +3379,186 @@
             {
               "logicalLocations": [
                 {
+                  "fullyQualifiedName": "'Wijzigen bezoekverslag'.FormBezoekverslag_1.'Naam bezoeker_DataCard2_1'.DataCardValue64_1.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Wijzigen bezoekverslag'.FormBezoekverslag_1.'Naam bezoeker_DataCard2_1'.DataCardValue64_1.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Wijzigen bezoekverslag",
+                "type": "'Wijzigen bezoekverslag'.FormBezoekverslag_1.'Naam bezoeker_DataCard2_1'.DataCardValue64_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Wijzigen bezoekverslag'.FormBezoekverslag_1.'Datum bezoek_DataCard1_1'.DataCardValue47_1.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Wijzigen bezoekverslag'.FormBezoekverslag_1.'Datum bezoek_DataCard1_1'.DataCardValue47_1.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Wijzigen bezoekverslag",
+                "type": "'Wijzigen bezoekverslag'.FormBezoekverslag_1.'Datum bezoek_DataCard1_1'.DataCardValue47_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Wijzigen bezoekverslag'.FormBezoekverslag_1.'Voor stuurgroep_DataCard1_1'.DataCardValue49_1.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Wijzigen bezoekverslag'.FormBezoekverslag_1.'Voor stuurgroep_DataCard1_1'.DataCardValue49_1.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Wijzigen bezoekverslag",
+                "type": "'Wijzigen bezoekverslag'.FormBezoekverslag_1.'Voor stuurgroep_DataCard1_1'.DataCardValue49_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Wijzigen bezoekverslag'.FormBezoekverslag_1.Permanentienaam_DataCard1_1.DataCardValue48_1.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Wijzigen bezoekverslag'.FormBezoekverslag_1.Permanentienaam_DataCard1_1.DataCardValue48_1.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Wijzigen bezoekverslag",
+                "type": "'Wijzigen bezoekverslag'.FormBezoekverslag_1.Permanentienaam_DataCard1_1.DataCardValue48_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Wijzigen bezoekverslag'.FormBezoekverslag_1.'Manier van aanmelden_DataCard1_1'.DataCardValue51_1.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Wijzigen bezoekverslag'.FormBezoekverslag_1.'Manier van aanmelden_DataCard1_1'.DataCardValue51_1.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Wijzigen bezoekverslag",
+                "type": "'Wijzigen bezoekverslag'.FormBezoekverslag_1.'Manier van aanmelden_DataCard1_1'.DataCardValue51_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Wijzigen bezoekverslag'.FormBezoekverslag_1.Verslag_DataCard1_1.DataCardValue65_1.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Wijzigen bezoekverslag'.FormBezoekverslag_1.Verslag_DataCard1_1.DataCardValue65_1.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Wijzigen bezoekverslag",
+                "type": "'Wijzigen bezoekverslag'.FormBezoekverslag_1.Verslag_DataCard1_1.DataCardValue65_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
                   "fullyQualifiedName": "App.MicrosoftTeams-image"
                 }
               ],
@@ -3728,10 +3728,10 @@
               }
             },
             {
-              "id": "app-ErrInvalidDot",
+              "id": "app-ErrInvalidArgs-Func",
               "messageStrings": {
                 "issue": {
-                  "text": "Invalid use of '.'"
+                  "text": "The function '{0}' has some invalid arguments."
                 }
               },
               "properties": {
@@ -3742,10 +3742,10 @@
               }
             },
             {
-              "id": "app-ErrInvalidArgs-Func",
+              "id": "app-ErrInvalidDot",
               "messageStrings": {
                 "issue": {
-                  "text": "The function '{0}' has some invalid arguments."
+                  "text": "Invalid use of '.'"
                 }
               },
               "properties": {
