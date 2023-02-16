@@ -38,7 +38,7 @@ Documenten As screen:
         Color: =RGBA(0, 0, 0, 1)
         DisabledColor: =RGBA(166, 166, 166, 1)
         Size: =13
-        Text: =Text(LookUp(Gasten, 'Id (ID)'=FormPersoonGegevens.LastSubmit.'Id (ID)', 'Full Name'))
+        Text: =Text(LookUp(Gasten, ID=FormPersoonGegevens.LastSubmit.ID, 'Volledige Naam'))
         X: =22
         Y: =158
         ZIndex: =8

@@ -113,15 +113,15 @@
     "UserLocale": "nl-NL"
   },
   "ScreenOrder": [
+    "Startscherm",
+    "PersoonGegevens",
+    "Financien",
     "ContactenPagina",
     "Documenten",
     "DossierOpmerkingen",
-    "Financien",
     "Kierbezoeken",
     "OverzichtBezoekverslagen",
     "OverzichtWinkels",
-    "PersoonGegevens",
-    "Startscherm",
     "ToevoegenBezoekverslag",
     "ToevoegenKierbezoek",
     "ToevoegenWinkel",
