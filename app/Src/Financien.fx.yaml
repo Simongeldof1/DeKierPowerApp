@@ -136,7 +136,7 @@ Financien As screen:
                 ChevronHoverFill: =RGBA(255, 255, 255, 1)
                 Default: |+
                     =//LookUp(Gasten; 'Id (ID)' = FormPersoonGegevens.LastSubmit.'Id (ID)')
-                    //First(Filter(Gasten; 'Volledige Naam' = FormPersoonGegevens.LastSubmit.'Volledige Naam'))
+                    First(Filter(Gasten, 'Volledige Naam' = FormPersoonGegevens.LastSubmit.'Volledige Naam'))
                     
                     
                     

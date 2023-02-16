@@ -171,6 +171,86 @@
             {
               "logicalLocations": [
                 {
+                  "fullyQualifiedName": "Financien.FormFinanciën.Gast_DataCard1.DataCardValue48.Default"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Financien.FormFinanciën.Gast_DataCard1.DataCardValue48.Default",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 16,
+                  "charOffset": 93,
+                  "snippet": {
+                    "text": "'Volledige Naam'"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Default",
+                "module": "Financien",
+                "type": "Financien.FormFinanciën.Gast_DataCard1.DataCardValue48"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Volledige Naam"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-SuggestRemoteExecutionHint-OpNotSupportedByColumn",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Financien.FormFinanciën.Gast_DataCard1.DataCardValue48.Default"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Financien.FormFinanciën.Gast_DataCard1.DataCardValue48.Default",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 1,
+                  "charOffset": 110,
+                  "snippet": {
+                    "text": "="
+                  }
+                }
+              },
+              "properties": {
+                "member": "Default",
+                "module": "Financien",
+                "type": "Financien.FormFinanciën.Gast_DataCard1.DataCardValue48"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Filter"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-SuggestRemoteExecutionHint",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
                   "fullyQualifiedName": "ToevoegenBezoekverslag.FormBezoekverslag.Item"
                 }
               ],
@@ -3660,6 +3740,36 @@
               },
               "properties": {
                 "member": "Items",
+                "module": "Financien",
+                "type": "Financien.FormFinanciën.Gast_DataCard1.DataCardValue48"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-InefficientDelayLoading",
+          "ruleIndex": 8
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Financien.FormFinanciën.Gast_DataCard1.DataCardValue48.Default"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Financien.FormFinanciën.Gast_DataCard1.DataCardValue48.Default",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "Default",
                 "module": "Financien",
                 "type": "Financien.FormFinanciën.Gast_DataCard1.DataCardValue48"
               }
