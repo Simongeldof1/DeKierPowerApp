@@ -10,7 +10,7 @@ Financien As screen:
         FontWeight: =FontWeight.Semibold
         HoverColor: =RGBA(255, 255, 255, 1)
         HoverFill: =ColorFade(RGBA(164, 38, 44, 1), -20%)
-        OnSelect: =SubmitForm(FormFinanciën); Navigate(ContactenPagina)
+        OnSelect: =SubmitForm(FormFinanciën); Navigate(ContactenScherm)
         Size: =15
         Text: ="Volgende"
         X: =1105
@@ -149,7 +149,7 @@ Financien As screen:
                 DisabledBorderColor: =RGBA(166, 166, 166, 1)
                 DisabledColor: =RGBA(166, 166, 166, 1)
                 DisabledFill: =RGBA(244, 244, 244, 1)
-                DisplayFields: =["Adres"]
+                DisplayFields: =["Full_x0020_Name"]
                 DisplayMode: =Parent.DisplayMode
                 HoverColor: =RGBA(0, 0, 0, 1)
                 HoverFill: =RGBA(222, 179, 184, 1)
@@ -159,7 +159,7 @@ Financien As screen:
                 PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
                 PressedColor: =RGBA(255, 255, 255, 1)
                 PressedFill: =RGBA(89, 0, 0, 1)
-                SearchFields: =["Adres"]
+                SearchFields: =["Full_x0020_Name"]
                 SearchItems: =[]
                 SelectionFill: =RGBA(164, 38, 44, 1)
                 SelectMultiple: =false
