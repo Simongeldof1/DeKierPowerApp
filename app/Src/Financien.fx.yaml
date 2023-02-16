@@ -137,7 +137,7 @@ Financien As screen:
                 Default: |+
                     =//LookUp(Gasten; 'Id (ID)' = FormPersoonGegevens.LastSubmit.'Id (ID)')
                     //First(Filter(Gasten; 'Volledige Naam' = FormPersoonGegevens.LastSubmit.'Volledige Naam'))
-                    //LookUp(Gasten; 'Full Name' = FormPersoonGegevens.LastSubmit.'Full Name')
+                    LookUp(Gasten, 'Full Name' = FormPersoonGegevens.LastSubmit.'Full Name')
                     
                     
                     
