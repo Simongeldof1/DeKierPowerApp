@@ -28,10 +28,10 @@ Startscherm As screen:
         Height: =87
         HoverColor: =RGBA(255, 255, 255, 1)
         HoverFill: =ColorFade(RGBA(164, 38, 44, 1), -20%)
-        OnSelect: =Navigate(ToevoegenBezoekverslag)
+        OnSelect: =Navigate(OverzichtBezoekverslagen)
         Size: =15
         Text: |-
-            ="Niew bezoeksverlag invoeren
+            ="Bezoeksverslag
             "
         Width: =245
         X: =257
