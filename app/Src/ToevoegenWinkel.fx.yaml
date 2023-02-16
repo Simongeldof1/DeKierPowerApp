@@ -969,7 +969,7 @@ ToevoegenWinkel As screen:
                 DisabledColor: =RGBA(166, 166, 166, 1)
                 Height: =34
                 Size: =13
-                Text: =Parent.DisplayName
+                Text: ="tot"
                 Width: =(Parent.Width - 60) * 0.4
                 Wrap: =false
                 X: =30

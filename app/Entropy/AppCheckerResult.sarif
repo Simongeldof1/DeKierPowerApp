@@ -2270,36 +2270,6 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "DocumentenDossier.Form4.Naam_DataCard3.DataCardValue91.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "DocumentenDossier.Form4.Naam_DataCard3.DataCardValue91.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "DocumentenDossier",
-                "type": "DocumentenDossier.Form4.Naam_DataCard3.DataCardValue91"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
                   "fullyQualifiedName": "ToevoegenBezoekverslag.FormToevoegenVerslag.'Datum bezoek_DataCard1'.DataCardValue67.AccessibleLabel"
                 }
               ],
@@ -4443,6 +4413,36 @@
                 "member": "Text",
                 "module": "DocumentenDossier",
                 "type": "DocumentenDossier.Label1_3"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-InefficientDelayLoading",
+          "ruleIndex": 8
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "DocumentenDossier.Form4.Item"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "DocumentenDossier.Form4.Item",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "Item",
+                "module": "DocumentenDossier",
+                "type": "DocumentenDossier.Form4"
               }
             }
           ],
