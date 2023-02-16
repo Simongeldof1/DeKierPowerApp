@@ -82,7 +82,7 @@ DocumentenDossier As screen:
         Size: =13
         Text: |-
             =//Text(LookUp(Gasten; 'Id (ID)'=FormPersoonGegevens.LastSubmit.'Id (ID)'; 'Id (ID)'))
-            Text(LookUp(Gasten, 'Id (ID)' = FormPersoonGegevens.LastSubmit.'Id (ID)', 'Id (ID)'))
+            Text(LookUp(Gasten, ID = FormPersoonGegevens.LastSubmit.ID, ID))
         X: =95
         Y: =180
         ZIndex: =8
@@ -101,7 +101,7 @@ DocumentenDossier As screen:
             BorderColor: =RGBA(89, 0, 0, 1)
             BorderStyle: =BorderStyle.Solid
             DataField: ="Title"
-            Default: =ThisItem.Title
+            Default: =ThisItem.Name
             DisplayMode: =Parent.DisplayMode
             DisplayName: =DataSourceInfo([@Gasten],DataSourceInfo.DisplayName,"Title")
             Fill: =RGBA(0, 0, 0, 0)
@@ -189,7 +189,7 @@ DocumentenDossier As screen:
             BorderColor: =RGBA(89, 0, 0, 1)
             BorderStyle: =BorderStyle.Solid
             DataField: ="Full_x0020_Name"
-            Default: =ThisItem.'Full Name'
+            Default: =ThisItem.'Volledige Naam'
             DisplayMode: =DisplayMode.View
             DisplayName: =DataSourceInfo([@Gasten],DataSourceInfo.DisplayName,"Full_x0020_Name")
             Fill: =RGBA(0, 0, 0, 0)
@@ -234,7 +234,7 @@ DocumentenDossier As screen:
             BorderColor: =RGBA(89, 0, 0, 1)
             BorderStyle: =BorderStyle.Solid
             DataField: ="{Attachments}"
-            Default: =ThisItem.Bijlagen
+            Default: =ThisItem.Attachments
             DisplayMode: =Parent.DisplayMode
             DisplayName: =DataSourceInfo([@Gasten],DataSourceInfo.DisplayName,"{Attachments}")
             Fill: =RGBA(0, 0, 0, 0)
