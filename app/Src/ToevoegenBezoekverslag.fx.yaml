@@ -47,6 +47,7 @@ ToevoegenBezoekverslag As screen:
     FormToevoegenVerslag As form:
         BorderColor: =RGBA(89, 0, 0, 1)
         DataSource: =Bezoekverslagen
+        DefaultMode: =FormMode.New
         Height: =458
         Width: =1216
         X: =64
