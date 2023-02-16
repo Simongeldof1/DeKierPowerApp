@@ -1301,7 +1301,7 @@ WijzigenWinkel As screen:
             BorderColor: =RGBA(89, 0, 0, 1)
             BorderStyle: =BorderStyle.Solid
             DataField: ="WoensdagOpn"
-            Default: =ThisItem.WoensdagOpen
+            Default: =ThisItem.WoensdagOpn
             DisplayMode: =Parent.DisplayMode
             DisplayName: =DataSourceInfo([@Winkels_1],DataSourceInfo.DisplayName,"WoensdagOpn")
             Fill: =RGBA(0, 0, 0, 0)

@@ -82,7 +82,7 @@ Financien As screen:
         Size: =13
         Text: |-
             =//Text(LookUp(Gasten; 'Id (ID)'=FormPersoonGegevens.LastSubmit.'Id (ID)'; 'Id (ID)'))
-            Text(LookUp(Gasten, ID = FormPersoonGegevens.LastSubmit.ID, ID))
+            Text(LookUp(Gasten, 'Id (ID)' = FormPersoonGegevens.LastSubmit.'Id (ID)', 'Id (ID)'))
         X: =95
         Y: =180
         ZIndex: =8
@@ -137,6 +137,7 @@ Financien As screen:
                 Default: |+
                     =//LookUp(Gasten; 'Id (ID)' = FormPersoonGegevens.LastSubmit.'Id (ID)')
                     //First(Filter(Gasten; 'Volledige Naam' = FormPersoonGegevens.LastSubmit.'Volledige Naam'))
+                    LookUp(Gasten, 'Full Name' = FormPersoonGegevens.LastSubmit.'Full Name')
                     
                     
                     
@@ -145,7 +146,8 @@ Financien As screen:
                     
                     
                     
-                DefaultSelectedItems: =
+                DefaultSelectedItems: |
+                    =LookUp(Gasten, 'Full Name' = FormPersoonGegevens.LastSubmit.'Full Name')
                 DisabledBorderColor: =RGBA(166, 166, 166, 1)
                 DisabledColor: =RGBA(166, 166, 166, 1)
                 DisabledFill: =RGBA(244, 244, 244, 1)
@@ -155,7 +157,7 @@ Financien As screen:
                 HoverFill: =RGBA(222, 179, 184, 1)
                 IsSearchable: =false
                 Items: |
-                    =Filter(Gasten, 'Volledige Naam' = FormPersoonGegevens.LastSubmit.'Volledige Naam')
+                    =Filter(Gasten, 'Full Name' = FormPersoonGegevens.LastSubmit.'Full Name')
                 PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
                 PressedColor: =RGBA(255, 255, 255, 1)
                 PressedFill: =RGBA(89, 0, 0, 1)
@@ -1034,7 +1036,7 @@ Financien As screen:
             BorderColor: =RGBA(89, 0, 0, 1)
             BorderStyle: =BorderStyle.Solid
             DataField: ="elektriciteit"
-            Default: =ThisItem.Elektriciteit
+            Default: =ThisItem.elektriciteit
             DisplayMode: =Parent.DisplayMode
             DisplayName: =DataSourceInfo([@Financiën],DataSourceInfo.DisplayName,"elektriciteit")
             Fill: =RGBA(0, 0, 0, 0)

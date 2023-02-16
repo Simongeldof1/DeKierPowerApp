@@ -82,7 +82,7 @@ OpmerkingenDossier As screen:
         Size: =13
         Text: |-
             =//Text(LookUp(Gasten; 'Id (ID)'=FormPersoonGegevens.LastSubmit.'Id (ID)'; 'Id (ID)'))
-            Text(LookUp(Gasten, ID = FormPersoonGegevens.LastSubmit.ID, ID))
+            Text(LookUp(Gasten, 'Id (ID)' = FormPersoonGegevens.LastSubmit.'Id (ID)', 'Id (ID)'))
         X: =95
         Y: =180
         ZIndex: =8

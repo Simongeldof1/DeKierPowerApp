@@ -34,7 +34,7 @@ PersoonGegevens As screen:
             BorderColor: =RGBA(89, 0, 0, 1)
             BorderStyle: =BorderStyle.Solid
             DataField: ="Title"
-            Default: =ThisItem.Name
+            Default: =ThisItem.Title
             DisplayMode: =Parent.DisplayMode
             DisplayName: =DataSourceInfo([@Gasten],DataSourceInfo.DisplayName,"Title")
             Fill: =RGBA(0, 0, 0, 0)
