@@ -62,19 +62,6 @@ DocumentenDossier As screen:
         Y: =18
         ZIndex: =7
 
-    Label1_3 As label:
-        BorderColor: =RGBA(89, 0, 0, 1)
-        BorderThickness: =2
-        Color: =RGBA(0, 0, 0, 1)
-        DisabledColor: =RGBA(166, 166, 166, 1)
-        Size: =13
-        Text: |-
-            =//Text(LookUp(Gasten; 'Id (ID)'=FormPersoonGegevens.LastSubmit.'Id (ID)'; 'Id (ID)'))
-            Text(LookUp(Gasten, ID = FormPersoonGegevens.LastSubmit.ID, 'Volledige Naam'))
-        X: =95
-        Y: =180
-        ZIndex: =8
-
     Form4 As form:
         BorderColor: =RGBA(89, 0, 0, 1)
         DataSource: =Gasten
@@ -96,7 +83,7 @@ DocumentenDossier As screen:
             Height: =344
             Required: =false
             Update: =DataCardValue90.Attachments
-            Width: =331
+            Width: =993
             X: =0
             Y: =0
             ZIndex: =10
@@ -197,4 +184,19 @@ DocumentenDossier As screen:
         X: =1166
         Y: =86
         ZIndex: =11
+
+    Label1_3 As label:
+        BorderColor: =RGBA(89, 0, 0, 1)
+        Color: =RGBA(0, 0, 0, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        FontWeight: =FontWeight.Bold
+        Height: =38
+        Size: =17
+        Text: |-
+            =//Text(LookUp(Gasten; 'Id (ID)' = FormPersoonGegevens.LastSubmit.'Id (ID)'; 'Id (ID)'))
+            //Text(LookUp(Gasten, 'Volledige Naam' = FormPersoonGegevens.LastSubmit.'Volledige Naam', 'Volledige Naam'))
+            Text(LookUp(Gasten,ID = FormPersoonGegevens.LastSubmit.ID,'Volledige Naam'))
+        Width: =630
+        Y: =146
+        ZIndex: =12
 

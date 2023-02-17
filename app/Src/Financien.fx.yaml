@@ -64,16 +64,17 @@ Financien As screen:
 
     Label1 As label:
         BorderColor: =RGBA(89, 0, 0, 1)
-        BorderThickness: =2
         Color: =RGBA(0, 0, 0, 1)
         DisabledColor: =RGBA(166, 166, 166, 1)
-        Size: =13
+        FontWeight: =FontWeight.Bold
+        Height: =38
+        Size: =17
         Text: |-
             =//Text(LookUp(Gasten; 'Id (ID)' = FormPersoonGegevens.LastSubmit.'Id (ID)'; 'Id (ID)'))
             //Text(LookUp(Gasten, 'Volledige Naam' = FormPersoonGegevens.LastSubmit.'Volledige Naam', 'Volledige Naam'))
             Text(LookUp(Gasten,ID = FormPersoonGegevens.LastSubmit.ID,'Volledige Naam'))
-        X: =95
-        Y: =180
+        Width: =630
+        Y: =147
         ZIndex: =8
 
     FormFinanciën As form:
