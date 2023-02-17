@@ -225,12 +225,12 @@ ContactenScherm As screen:
                 DisplayMode: =Parent.DisplayMode
                 HoverColor: =RGBA(0, 0, 0, 1)
                 HoverFill: =RGBA(222, 179, 184, 1)
-                Items: =Choices([@Contacten_1].Soortcontact)
+                Items: =Choices([@Contacten_1].'Soort contact')
                 PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
                 PressedColor: =RGBA(255, 255, 255, 1)
                 PressedFill: =RGBA(89, 0, 0, 1)
                 SearchFields: =["Value"]
-                SearchItems: =Choices(Contacten_1.Soortcontact,DataCardValue20.SearchText)
+                SearchItems: =Choices(Contacten_1.'Soort contact',DataCardValue20.SearchText)
                 SelectionFill: =RGBA(164, 38, 44, 1)
                 SelectMultiple: =false
                 Size: =13
