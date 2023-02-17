@@ -1144,13 +1144,13 @@ ToevoegenWinkel As screen:
                 AutoHeight: =true
                 Color: =RGBA(89, 0, 0, 1)
                 DisabledColor: =RGBA(166, 166, 166, 1)
-                Height: =34
+                Height: =33
                 Size: =13
-                Text: =Parent.DisplayName
-                Width: =(Parent.Width - 60) * 0.4
+                Text: |-
+                    ="Di: van"
+                Width: =77
                 Wrap: =false
-                X: =30
-                Y: =10 + (DataCardValue52.Height / 2) - (Self.Height / 2)
+                Y: =12
                 ZIndex: =1
 
             DataCardValue52 As text:
@@ -1176,8 +1176,8 @@ ToevoegenWinkel As screen:
                 Size: =13
                 Tooltip: =Parent.DisplayName
                 Width: =(Parent.Width - 60) * 0.6
-                X: =DataCardKey52.X + DataCardKey52.Width
-                Y: =10
+                X: =91
+                Y: =9
                 ZIndex: =2
 
             ErrorMessage52 As label:
@@ -1234,7 +1234,7 @@ ToevoegenWinkel As screen:
                 DisabledColor: =RGBA(166, 166, 166, 1)
                 Height: =34
                 Size: =13
-                Text: =Parent.DisplayName
+                Text: ="tot"
                 Width: =(Parent.Width - 60) * 0.4
                 Wrap: =false
                 X: =30
@@ -1320,13 +1320,13 @@ ToevoegenWinkel As screen:
                 AutoHeight: =true
                 Color: =RGBA(89, 0, 0, 1)
                 DisabledColor: =RGBA(166, 166, 166, 1)
-                Height: =34
+                Height: =33
                 Size: =13
-                Text: =Parent.DisplayName
-                Width: =(Parent.Width - 60) * 0.4
+                Text: |-
+                    ="Woe: van"
+                Width: =91
                 Wrap: =false
-                X: =30
-                Y: =10 + (DataCardValue54.Height / 2) - (Self.Height / 2)
+                Y: =13
                 ZIndex: =1
 
             DataCardValue54 As text:
@@ -1352,8 +1352,8 @@ ToevoegenWinkel As screen:
                 Size: =13
                 Tooltip: =Parent.DisplayName
                 Width: =(Parent.Width - 60) * 0.6
-                X: =DataCardKey54.X + DataCardKey54.Width
-                Y: =10
+                X: =91
+                Y: =13
                 ZIndex: =2
 
             ErrorMessage54 As label:
@@ -1410,7 +1410,7 @@ ToevoegenWinkel As screen:
                 DisabledColor: =RGBA(166, 166, 166, 1)
                 Height: =34
                 Size: =13
-                Text: =Parent.DisplayName
+                Text: ="tot"
                 Width: =(Parent.Width - 60) * 0.4
                 Wrap: =false
                 X: =30
@@ -1496,13 +1496,13 @@ ToevoegenWinkel As screen:
                 AutoHeight: =true
                 Color: =RGBA(89, 0, 0, 1)
                 DisabledColor: =RGBA(166, 166, 166, 1)
-                Height: =34
+                Height: =33
                 Size: =13
-                Text: =Parent.DisplayName
-                Width: =(Parent.Width - 60) * 0.4
+                Text: |-
+                    ="Don: van"
+                Width: =91
                 Wrap: =false
-                X: =30
-                Y: =10 + (DataCardValue56.Height / 2) - (Self.Height / 2)
+                Y: =13
                 ZIndex: =1
 
             DataCardValue56 As text:
@@ -1528,7 +1528,7 @@ ToevoegenWinkel As screen:
                 Size: =13
                 Tooltip: =Parent.DisplayName
                 Width: =(Parent.Width - 60) * 0.6
-                X: =DataCardKey56.X + DataCardKey56.Width
+                X: =91
                 Y: =10
                 ZIndex: =2
 
@@ -1586,7 +1586,7 @@ ToevoegenWinkel As screen:
                 DisabledColor: =RGBA(166, 166, 166, 1)
                 Height: =34
                 Size: =13
-                Text: =Parent.DisplayName
+                Text: ="tot"
                 Width: =(Parent.Width - 60) * 0.4
                 Wrap: =false
                 X: =30
@@ -1672,13 +1672,13 @@ ToevoegenWinkel As screen:
                 AutoHeight: =true
                 Color: =RGBA(89, 0, 0, 1)
                 DisabledColor: =RGBA(166, 166, 166, 1)
-                Height: =34
+                Height: =33
                 Size: =13
-                Text: =Parent.DisplayName
-                Width: =(Parent.Width - 60) * 0.4
+                Text: |-
+                    ="Vrij: van"
+                Width: =80
                 Wrap: =false
-                X: =30
-                Y: =10 + (DataCardValue58.Height / 2) - (Self.Height / 2)
+                Y: =13
                 ZIndex: =1
 
             DataCardValue58 As text:
@@ -1704,7 +1704,7 @@ ToevoegenWinkel As screen:
                 Size: =13
                 Tooltip: =Parent.DisplayName
                 Width: =(Parent.Width - 60) * 0.6
-                X: =DataCardKey58.X + DataCardKey58.Width
+                X: =91
                 Y: =10
                 ZIndex: =2
 
@@ -1762,7 +1762,7 @@ ToevoegenWinkel As screen:
                 DisabledColor: =RGBA(166, 166, 166, 1)
                 Height: =34
                 Size: =13
-                Text: =Parent.DisplayName
+                Text: ="tot"
                 Width: =(Parent.Width - 60) * 0.4
                 Wrap: =false
                 X: =30
@@ -1848,13 +1848,13 @@ ToevoegenWinkel As screen:
                 AutoHeight: =true
                 Color: =RGBA(89, 0, 0, 1)
                 DisabledColor: =RGBA(166, 166, 166, 1)
-                Height: =34
+                Height: =33
                 Size: =13
-                Text: =Parent.DisplayName
-                Width: =(Parent.Width - 60) * 0.4
+                Text: |-
+                    ="Zat: van"
+                Width: =91
                 Wrap: =false
-                X: =30
-                Y: =10 + (DataCardValue60.Height / 2) - (Self.Height / 2)
+                Y: =13
                 ZIndex: =1
 
             DataCardValue60 As text:
@@ -1880,7 +1880,7 @@ ToevoegenWinkel As screen:
                 Size: =13
                 Tooltip: =Parent.DisplayName
                 Width: =(Parent.Width - 60) * 0.6
-                X: =DataCardKey60.X + DataCardKey60.Width
+                X: =91
                 Y: =10
                 ZIndex: =2
 
@@ -1938,7 +1938,7 @@ ToevoegenWinkel As screen:
                 DisabledColor: =RGBA(166, 166, 166, 1)
                 Height: =34
                 Size: =13
-                Text: =Parent.DisplayName
+                Text: ="tot"
                 Width: =(Parent.Width - 60) * 0.4
                 Wrap: =false
                 X: =30
@@ -2024,13 +2024,13 @@ ToevoegenWinkel As screen:
                 AutoHeight: =true
                 Color: =RGBA(89, 0, 0, 1)
                 DisabledColor: =RGBA(166, 166, 166, 1)
-                Height: =34
+                Height: =33
                 Size: =13
-                Text: =Parent.DisplayName
-                Width: =(Parent.Width - 60) * 0.4
+                Text: |-
+                    ="Zon: van"
+                Width: =91
                 Wrap: =false
-                X: =30
-                Y: =10 + (DataCardValue62.Height / 2) - (Self.Height / 2)
+                Y: =13
                 ZIndex: =1
 
             DataCardValue62 As text:
@@ -2056,7 +2056,7 @@ ToevoegenWinkel As screen:
                 Size: =13
                 Tooltip: =Parent.DisplayName
                 Width: =(Parent.Width - 60) * 0.6
-                X: =DataCardKey62.X + DataCardKey62.Width
+                X: =91
                 Y: =10
                 ZIndex: =2
 
@@ -2114,7 +2114,7 @@ ToevoegenWinkel As screen:
                 DisabledColor: =RGBA(166, 166, 166, 1)
                 Height: =34
                 Size: =13
-                Text: =Parent.DisplayName
+                Text: ="tot"
                 Width: =(Parent.Width - 60) * 0.4
                 Wrap: =false
                 X: =30

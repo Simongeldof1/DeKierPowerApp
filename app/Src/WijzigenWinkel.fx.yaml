@@ -8,7 +8,7 @@ WijzigenWinkel As screen:
         DataSource: =Winkels_1
         DefaultMode: =FormMode.New
         Height: =493
-        Item: =glbRecord1
+        Item: =LookUp(Winkels_1, ID = glbRecord1.ID)
         NumberOfColumns: =1
         Width: =780
         X: =41
@@ -911,7 +911,13 @@ WijzigenWinkel As screen:
         HoverColor: =RGBA(255, 255, 255, 1)
         HoverFill: =ColorFade(RGBA(164, 38, 44, 1), -20%)
         OnSelect: |+
-            =Patch(Winkels_1,Defaults(Winkels_1),FormToevoegenWinkel_1.Updates,FormOpeningsUren_1.Updates);Navigate(OverzichtWinkels)
+            =Patch(
+            Winkels_1,
+            {ID: glbRecord1.ID},
+            FormToevoegenWinkel_1.Updates,
+            FormOpeningsUren_1.Updates
+            );
+            Navigate(OverzichtWinkels)
             
         Size: =15
         Text: ="Opslaan"
@@ -939,7 +945,7 @@ WijzigenWinkel As screen:
         DataSource: =Winkels_1
         DefaultMode: =FormMode.New
         Height: =493
-        Item: =glbRecord1
+        Item: =LookUp(Winkels_1, ID = glbRecord1.ID)
         NumberOfColumns: =2
         Width: =422
         X: =915
